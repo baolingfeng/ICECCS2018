@@ -1,0 +1,28 @@
+{
+    "origin": {
+        "android.view.View": [
+            "android.location.LocationManager;->getBestProvider", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "diff": {
+        "android.widget.Button": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ad": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "repack": {
+        "android.widget.Button": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.view.View": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ad": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }
+}

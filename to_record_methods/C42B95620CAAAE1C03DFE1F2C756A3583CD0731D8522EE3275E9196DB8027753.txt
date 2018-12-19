@@ -1,0 +1,5 @@
+<com.magicwach.rdefense.GameActivity$SampleView: void cleanup()>	Permission:android.permission.WAKE_LOCK
+<com.xxx.yyy.CustomBroadcastReceiver: void onReceive(android.content.Context,android.content.Intent)>	Permission:android.permission.ACCESS_COARSE_LOCATION
+<com.magicwach.rdefense.GameActivity$SampleView: public com.magicwach.rdefense.GameActivity$SampleView(android.app.Activity,android.content.SharedPreferences)>	Permission:android.permission.WAKE_LOCK
+<com.xxx.yyy.MyService: void onCreate()>	Permission:android.permission.READ_PHONE_STATE
+<com.xxx.yyy.MyService: void onStart(android.content.Intent,int)>	Permission:android.permission.ACCESS_NETWORK_STATE

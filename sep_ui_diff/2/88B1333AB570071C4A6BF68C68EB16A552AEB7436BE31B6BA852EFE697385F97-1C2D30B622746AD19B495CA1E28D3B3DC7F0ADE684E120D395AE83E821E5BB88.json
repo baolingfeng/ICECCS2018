@@ -1,0 +1,75 @@
+{
+    "origin": {
+        "android:id/message": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "diff": {
+        "android.widget.FrameLayout": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.webkit.WebView": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.view.View": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "admoblayout": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "tutorialView": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "repack": {
+        "android.widget.FrameLayout": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.webkit.WebView": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.view.View": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "admoblayout": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "tutorialView": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

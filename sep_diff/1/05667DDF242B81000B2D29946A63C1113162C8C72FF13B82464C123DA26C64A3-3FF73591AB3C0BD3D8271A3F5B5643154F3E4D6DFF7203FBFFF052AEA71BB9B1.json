@@ -1,0 +1,116 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "r.admob.com", 
+            "file:///android_asset/VirtualDog.html"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "com.admob.android.ads.AdRequester;->requestAd", 
+            "com.admob.android.ads.AdManager;->getUserId", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.location.LocationManager;->getBestProvider", 
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getTranslationX", 
+            "/getLong", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "com.admob.android.ads.AdManager;->getUserId": [
+                "[\"com.dseffects.VirtualDog.VirtualDog\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "com.admob.android.ads.AdRequester;->requestAd": [
+                "[\"com.dseffects.VirtualDog.VirtualDog\", \"Android application\"]"
+            ], 
+            "android.location.LocationManager;->getBestProvider": [
+                "[\"true\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadUrl", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "java.net.URL;->openConnection", 
+            "android.location.LocationManager;->getBestProvider"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "r.admob.com", 
+            "file:///android_asset/VirtualDog.html"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "com.admob.android.ads.AdRequester;->requestAd", 
+            "com.admob.android.ads.AdManager;->getUserId", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.location.LocationManager;->getBestProvider", 
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getTranslationX", 
+            "/getLong", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "com.admob.android.ads.AdManager;->getUserId": [
+                "[\"com.dseffects.VirtualDog.VirtualDog\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "com.admob.android.ads.AdRequester;->requestAd": [
+                "[\"com.dseffects.VirtualDog.VirtualDog\", \"Android application\"]"
+            ], 
+            "android.location.LocationManager;->getBestProvider": [
+                "[\"true\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadUrl", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "java.net.URL;->openConnection", 
+            "android.location.LocationManager;->getBestProvider"
+        ]
+    }
+}

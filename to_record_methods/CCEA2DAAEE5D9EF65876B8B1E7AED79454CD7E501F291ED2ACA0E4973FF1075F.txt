@@ -1,0 +1,8 @@
+<com.mobclick.android.l: java.lang.String c(android.content.Context)>	Permission:android.permission.READ_PHONE_STATE
+<com.mobclick.android.l: boolean h(android.content.Context)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.cjdao.util.CjdaoCommonUtil: java.lang.String clientUUID()>	Permission:android.permission.READ_PHONE_STATE	Permission:android.permission.ACCESS_WIFI_STATE
+<com.mobclick.android.l: java.lang.String[] f(android.content.Context)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.mobclick.android.e: android.location.Location a()>	Permission:android.permission.ACCESS_FINE_LOCATION
+<com.cjdao.http.CjdaoCacheableHttpRequest: void run()>	Permission:android.permission.INTERNET
+<com.feedback.c.b: void run()>	Permission:android.permission.INTERNET
+<com.mobclick.android.m: java.lang.String a(android.content.Context)>	Permission:android.permission.ACCESS_NETWORK_STATE

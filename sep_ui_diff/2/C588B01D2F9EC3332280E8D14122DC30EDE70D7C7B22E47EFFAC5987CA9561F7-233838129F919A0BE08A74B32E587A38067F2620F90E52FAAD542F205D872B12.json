@@ -1,0 +1,18 @@
+{
+    "origin": {
+        "BACK": [
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "diff": {
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "repack": {
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }
+}

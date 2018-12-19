@@ -1,0 +1,151 @@
+{
+    "diff": {
+        "urls": [
+            "file:/data/app/com.nikolaypedyaev.AstonMartinDBSWallpaper-1.apk", 
+            "jar:file:/data/app/com.nikolaypedyaev.AstonMartinDBSWallpaper-1.apk!/startapp.properties"
+        ], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "lh4.googleusercontent.com", 
+            "lh3.googleusercontent.com", 
+            "lh6.googleusercontent.com", 
+            "jar:file:/data/app/com.nikolaypedyaev.AstonMartinDBSWallpaper-1.apk!/startapp.properties", 
+            "lh5.googleusercontent.com", 
+            "file:/data/app/com.nikolaypedyaev.AstonMartinDBSWallpaper-1.apk", 
+            "www.startappexchange.com"
+        ], 
+        "shared_preferences": [
+            "prefCurrentPosition", 
+            "key_index", 
+            "shared_prefs_simple_token", 
+            "User-Agent", 
+            "shared_prefs_sdk_ad_prefs", 
+            "shared_prefs_first_init", 
+            "_has_set_default_values", 
+            "shared_prefs_devId", 
+            "shared_prefs_appId"
+        ], 
+        "called_apis": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "java.net.URL;->openConnection", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.telephony.TelephonyManager;->listen", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "android.telephony.SignalStrength/getLevel", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->listen": [
+                "[\"com.startapp.android.publish.f.h$1\", \"256\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "lh4.googleusercontent.com", 
+            "www.startappexchange.com", 
+            "lh6.googleusercontent.com", 
+            "file:/data/app/com.AirplanesWallpapers.BoeingE3ASentryWallpaper-1.apk", 
+            "jar:file:/data/app/com.AirplanesWallpapers.BoeingE3ASentryWallpaper-1.apk!/startapp.properties", 
+            "lh5.googleusercontent.com", 
+            "lh3.googleusercontent.com"
+        ], 
+        "shared_preferences": [
+            "prefCurrentPosition", 
+            "key_index", 
+            "shared_prefs_simple_token", 
+            "User-Agent", 
+            "shared_prefs_sdk_ad_prefs", 
+            "shared_prefs_first_init", 
+            "_has_set_default_values", 
+            "shared_prefs_devId", 
+            "shared_prefs_appId"
+        ], 
+        "called_apis": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "com.xlab.wallpapers.util.ImageFetcher;->downloadUrlToStream", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "java.net.URL;->openConnection", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "com.xlab.wallpapers.ui.ImageDetailActivity$1;->run", 
+            "android.telephony.TelephonyManager;->listen", 
+            "java.lang.reflect.Method;->invoke", 
+            "com.xlab.wallpapers.ui.ImageDetailActivity$2;->run", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "com.startapp.android.publish.f.i;->b", 
+            "com.startapp.android.publish.f.i;->a", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "android.telephony.SignalStrength/getLevel", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "com.xlab.wallpapers.ui.ImageDetailActivity$1;->run": [
+                "[]"
+            ], 
+            "com.xlab.wallpapers.util.ImageFetcher;->downloadUrlToStream": [
+                "[\"lh3.googleusercontent.com\"]", 
+                "[\"lh6.googleusercontent.com\"]", 
+                "[\"lh5.googleusercontent.com\"]", 
+                "[\"lh4.googleusercontent.com\"]"
+            ], 
+            "android.telephony.TelephonyManager;->listen": [
+                "[\"com.startapp.android.publish.f.h$1\", \"256\"]"
+            ], 
+            "com.xlab.wallpapers.ui.ImageDetailActivity$2;->run": [
+                "[]"
+            ], 
+            "com.startapp.android.publish.f.i;->b": [
+                "[\"com.xlab.wallpapers.ui.App\"]"
+            ], 
+            "com.startapp.android.publish.f.i;->a": [
+                "[\"com.xlab.wallpapers.ui.ImageDetailActivity\"]", 
+                "[\"com.xlab.wallpapers.ui.ImageGridActivity\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }
+}

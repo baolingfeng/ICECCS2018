@@ -1,0 +1,22 @@
+{
+    "origin": {
+        "splash_text": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "diff": {
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "repack": {
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "splash_text": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "origin": {
+        "android.widget.Button": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ImageButton01": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ImageButton02": [
+            "android.location.LocationManager;->getBestProvider", 
+            "java.net.URL;->openConnection"
+        ], 
+        "Button01": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.CheckBox": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "diff": {}, 
+    "repack": {}
+}

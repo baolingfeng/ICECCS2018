@@ -1,0 +1,5 @@
+<com.casee.adsdk.AdFetcher: java.lang.String getNetworkType(android.content.Context)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.casee.adsdk.Ad: android.graphics.drawable.Drawable getIcon()>	Permission:android.permission.INTERNET
+<com.casee.adsdk.AdFetcher: java.net.HttpURLConnection getConnection(android.content.Context,java.lang.String)>	Permission:android.permission.INTERNET
+<com.casee.adsdk.LocationProvider: void run()>	Permission:android.permission.ACCESS_FINE_LOCATION
+<com.casee.adsdk.AdFetcher: java.lang.String getDeviceId(android.content.Context)>	Permission:android.permission.READ_PHONE_STATE

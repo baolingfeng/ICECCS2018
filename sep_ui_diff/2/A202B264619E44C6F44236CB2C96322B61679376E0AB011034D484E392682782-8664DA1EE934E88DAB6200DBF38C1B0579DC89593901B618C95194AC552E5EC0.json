@@ -1,0 +1,66 @@
+{
+    "origin": {
+        "search_button_container": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "analog_appwidget": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_bluetooth": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell1": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell3": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell5": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell4": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_wifi": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "dock_divider": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "diff": {
+        "android.widget.Button": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.view.View": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/webviewchromium_select_action_menu_web_search": [
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "repack": {
+        "android.widget.Button": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.view.View": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "BACK": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/webviewchromium_select_action_menu_web_search": [
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+<android.support.v4.net.ConnectivityManagerCompat$BaseConnectivityManagerCompatImpl: boolean isActiveNetworkMetered(android.net.ConnectivityManager)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.myaircover.security.i.j: java.lang.String a(android.content.Context)>	Permission:android.permission.READ_PHONE_STATE
+<com.flurry.android.FlurryFullscreenTakeoverActivity: void onPause()>	Permission:android.permission.WAKE_LOCK
+<com.myaircover.security.i.u: boolean a()>	Permission:android.permission.ACCESS_NETWORK_STATE
+<android.support.v4.net.ConnectivityManagerCompatGingerbread: boolean isActiveNetworkMetered(android.net.ConnectivityManager)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.myaircover.security.g.a: void a()>	Permission:android.permission.VIBRATE
+<com.flurry.android.FlurryFullscreenTakeoverActivity: void onPrepared(android.media.MediaPlayer)>	Permission:android.permission.WAKE_LOCK
+<com.myaircover.security.e.b: boolean a(java.lang.String,java.lang.String)>	Permission:android.permission.INTERNET
+<com.myaircover.security.helper.ch: boolean c()>	Permission:android.permission.ACCESS_WIFI_STATE	Permission:android.permission.CHANGE_WIFI_STATE
+<com.flurry.android.monolithic.sdk.impl.jc: com.flurry.android.monolithic.sdk.impl.jd e()>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.myaircover.security.i.o: android.location.Location a(long)>	Permission:android.permission.ACCESS_FINE_LOCATION
+<com.myaircover.security.i.o: boolean a()>	Permission:android.permission.ACCESS_FINE_LOCATION
+<android.support.v4.net.ConnectivityManagerCompat: android.net.NetworkInfo getNetworkInfoFromBroadcast(android.net.ConnectivityManager,android.content.Intent)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.myaircover.security.i.j: java.lang.String b(android.content.Context)>	Permission:android.permission.READ_PHONE_STATE
+<com.myaircover.security.i.o: boolean c()>	Permission:android.permission.ACCESS_FINE_LOCATION
+<com.myaircover.security.i.j: java.lang.String j()>	Permission:android.permission.READ_PHONE_STATE
+<android.support.v4.net.ConnectivityManagerCompatJellyBean: boolean isActiveNetworkMetered(android.net.ConnectivityManager)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.myaircover.security.i.o: boolean e()>	Permission:android.permission.ACCESS_WIFI_STATE
+<com.myaircover.security.helper.c: void a()>	Permission:android.permission.WAKE_LOCK
+<com.myaircover.security.i.ak: void a(java.lang.String)>	Permission:android.permission.KILL_BACKGROUND_PROCESSES
+<com.myaircover.security.i.a: void a()>	Permission:android.permission.GET_ACCOUNTS	Permission:android.permission.MANAGE_ACCOUNTS
+<com.myaircover.security.helper.c: void b()>	Permission:android.permission.WAKE_LOCK
+<com.myaircover.security.i.a: java.lang.String b()>	Permission:android.permission.GET_ACCOUNTS
+<com.flurry.android.monolithic.sdk.impl.o: void initLayout()>	Permission:android.permission.INTERNET
+<com.myaircover.security.engine.m: boolean a(com.myaircover.security.model.ScanItem)>	Permission:android.permission.GET_ACCOUNTS
+<android.support.v4.net.ConnectivityManagerCompatHoneycombMR2: boolean isActiveNetworkMetered(android.net.ConnectivityManager)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.flurry.android.monolithic.sdk.impl.ar: public com.flurry.android.monolithic.sdk.impl.ar(android.content.Context,java.lang.String)>	Permission:android.permission.INTERNET

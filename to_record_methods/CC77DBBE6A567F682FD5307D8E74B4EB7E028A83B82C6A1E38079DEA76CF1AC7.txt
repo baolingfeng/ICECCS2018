@@ -1,0 +1,22 @@
+<com.asksven.betterwifionoff.utils.WifiControl: java.util.List<java.lang.String> getAvailableAccessPoints(android.content.Context)>	Permission:android.permission.ACCESS_WIFI_STATE
+<com.asksven.betterwifionoff.utils.WifiControl: boolean isWifiConnected(android.content.Context)>	Permission:android.permission.ACCESS_NETWORK_STATE	Permission:android.permission.ACCESS_WIFI_STATE
+<com.asksven.betterwifionoff.WifiLock: void acquireWifiLock(android.content.Context)>	Permission:android.permission.WAKE_LOCK
+<com.asksven.betterwifionoff.utils.WifiControl: int getConnectionSpeed(android.content.Context)>	Permission:android.permission.ACCESS_WIFI_STATE
+<com.asksven.betterwifionoff.PluggedWakelock: void releaseWifilock()>	Permission:android.permission.WAKE_LOCK
+<com.asksven.android.common.networkutils.DataNetwork: boolean hasDataConnection(android.content.Context)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.asksven.betterwifionoff.utils.CellUtil: com.asksven.betterwifionoff.data.CellLogEntry getCurrentCell(android.content.Context)>	Permission:android.permission.ACCESS_FINE_LOCATION
+<com.asksven.betterwifionoff.PluggedWakelock: void acquireWakelock(android.content.Context)>	Permission:android.permission.WAKE_LOCK
+<com.asksven.betterwifionoff.PluggedWakelock: void releaseWakelock()>	Permission:android.permission.WAKE_LOCK
+<com.asksven.betterwifionoff.PluggedWakelock: void acquireHighPerfWifiLock(android.content.Context)>	Permission:android.permission.WAKE_LOCK
+<com.asksven.betterwifionoff.WifiLock: void acquireHighPerfWifiLock(android.content.Context)>	Permission:android.permission.WAKE_LOCK
+<com.asksven.betterwifionoff.utils.WifiControl: boolean isWhitelistedWifiConnected(android.content.Context,java.lang.String)>	Permission:android.permission.ACCESS_WIFI_STATE
+<com.asksven.android.common.settings.GpsSettings: void turnGPSOn(android.content.Context)>	Permission:android.permission.WRITE_SETTINGS
+<com.asksven.betterwifionoff.utils.WifiControl: void setWifi(android.content.Context,boolean)>	Permission:android.permission.CHANGE_WIFI_STATE
+<com.asksven.betterwifionoff.WifiLock: void releaseWifilock()>	Permission:android.permission.WAKE_LOCK
+<com.asksven.betterwifionoff.utils.WifiControl: boolean isWifiOn(android.content.Context)>	Permission:android.permission.ACCESS_WIFI_STATE
+<com.asksven.betterwifionoff.utils.WifiControl: java.lang.String connectToBestNetwork(android.content.Context,java.lang.String)>	Permission:android.permission.ACCESS_WIFI_STATE	Permission:android.permission.CHANGE_WIFI_STATE
+<com.asksven.android.common.networkutils.DataNetwork: boolean hasWifiConnection(android.content.Context)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.asksven.betterwifionoff.utils.WifiControl: java.util.List<java.lang.String> getConfiguredAccessPoints(android.content.Context)>	Permission:android.permission.ACCESS_WIFI_STATE
+<com.asksven.betterwifionoff.utils.WifiControl: java.lang.String connectedSsid(android.content.Context)>	Permission:android.permission.ACCESS_WIFI_STATE
+<com.asksven.betterwifionoff.PluggedWakelock: void acquireWifiLock(android.content.Context)>	Permission:android.permission.WAKE_LOCK
+<com.asksven.betterwifionoff.utils.WifiControl$1: void run()>	Permission:android.permission.INTERNET

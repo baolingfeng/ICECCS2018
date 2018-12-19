@@ -1,0 +1,228 @@
+{
+    "origin": {
+        "btnDHEA": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->getSubscriberId"
+        ], 
+        "android.widget.ImageView": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->getSubscriberId"
+        ], 
+        "android:id/text1": [
+            "java.net.URL;->openConnection"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->getSubscriberId"
+        ], 
+        "android:id/list_footer": [
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ], 
+        "btnPlay": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->getSubscriberId"
+        ], 
+        "android:id/list": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->getSubscriberId"
+        ], 
+        "android.widget.TextView": [
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ], 
+        "android.widget.ScrollView": [
+            "java.net.URL;->openConnection"
+        ], 
+        "wbabout": [
+            "java.net.URL;->openConnection"
+        ], 
+        "btnSet": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->getSubscriberId"
+        ], 
+        "content": [
+            "java.net.URL;->openConnection"
+        ], 
+        "progress": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/summary": [
+            "java.net.URL;->openConnection"
+        ], 
+        "txtCurrent": [
+            "java.net.URL;->openConnection"
+        ], 
+        "btnBBT": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->getSubscriberId"
+        ], 
+        "btnAbout": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.telephony.TelephonyManager;->getSubscriberId"
+        ], 
+        "android.view.View": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->getSubscriberId"
+        ], 
+        "android.webkit.WebView": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ], 
+        "btnPause": [
+            "java.net.URL;->openConnection"
+        ], 
+        "txtDescript": [
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ], 
+        "txtTotal": [
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ], 
+        "btnStop": [
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ], 
+        "android:id/title": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "diff": {
+        "btnPause": [
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "android:id/text1": [
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "wbabout": [
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "adwooboo": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "android:id/title": [
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "android.webkit.WebView": [
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ]
+    }, 
+    "repack": {
+        "android:id/list": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "android.widget.TextView": [
+            "java.net.URL;->openConnection"
+        ], 
+        "btnDHEA": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "btnBBT": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "android:id/text1": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "btnStop": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "btnSet": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "wbabout": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "btnPause": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "txtTotal": [
+            "java.net.URL;->openConnection"
+        ], 
+        "btnAbout": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "adwooboo": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "btnPlay": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "android:id/title": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ], 
+        "android.webkit.WebView": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number"
+        ]
+    }
+}

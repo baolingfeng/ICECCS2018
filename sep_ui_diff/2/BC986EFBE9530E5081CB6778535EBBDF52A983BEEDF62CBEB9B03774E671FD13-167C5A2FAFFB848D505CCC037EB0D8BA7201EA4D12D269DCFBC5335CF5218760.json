@@ -1,0 +1,564 @@
+{
+    "origin": {
+        "list_view_type4_divider": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "action_bar_back_button": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "custom_page1_ListView": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "list_view_type3_text": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "BACK": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/search_close_btn": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "main_page_reminder_text": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "action_bar_back_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type3_divider": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type4_item2": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "list_view_type4_item3": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "list_view_type4_item1": [
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ], 
+        "main_page_fake_call_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type2_custom": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "action_bar_title": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "main_page_fake_call_text": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "account_password": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.speech.SpeechRecognizer;->stopListening", 
+            "android.speech.SpeechRecognizer;->cancel"
+        ], 
+        "instructions": [
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ], 
+        "fake_call_page_listview": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "account_email": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.speech.SpeechRecognizer;->stopListening", 
+            "android.speech.SpeechRecognizer;->cancel"
+        ], 
+        "list_view_type2_divider": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "custom_page2_edit_phone_number": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.content.ContentResolver;->query", 
+            "android.media.AudioManager;->setMode"
+        ], 
+        "action_bar_option1_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.view.View": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "custom_page1_layout": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "fake_call_make_a_call_button": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.AudioManager;->setMode"
+        ], 
+        "reminder_page_init_layout": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "custom_page2_done": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "list_view_type2_text": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "action_bar_option2_button": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "action_bar_option1_button": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "recording_page_mic": [
+            "android.media.MediaRecorder;->setAudioSource"
+        ], 
+        "action_bar_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "custom_page2_edit_name": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "action_bar_option2_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "custom_page2_photo": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "main_page_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ]
+    }, 
+    "diff": {
+        "list_view_type2_friend": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type4_divider": [
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.AudioManager;->setMode"
+        ], 
+        "samsung_1_phone": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "main_page_reminder_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/text1": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "fake_call_page_listview": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.AudioManager;->setMode"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.speech.SpeechRecognizer;->stopListening", 
+            "android.speech.SpeechRecognizer;->cancel"
+        ], 
+        "instant_call_page_switchButton": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type4_item3": [
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.AudioManager;->setMode"
+        ], 
+        "list_view_type4_item1": [
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "main_page_fake_call_icon": [
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "list_view_type2_custom": [
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "imageView1": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "main_page_fake_call_text": [
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "account_password": [
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.AudioManager;->setMode"
+        ], 
+        "fake_call_page_divider": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type1_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.widget.FrameLayout": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "custom_page1_divider": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/button2": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "custom_page2_name": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "custom_page2_edit_phone_number": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "grid": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "about_page_layout": [
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ], 
+        "android.view.View": [
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.AudioManager;->setMode"
+        ], 
+        "list_view_type4_photo": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "list_view_type1_text1": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type4_name": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "cstom_page_2_use_this_caller_text": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "custom_page2_cancel": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "recording_page_mic": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type_check": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type4_number": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "fake_call_make_a_call_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ]
+    }, 
+    "repack": {
+        "list_view_type2_friend": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type4_divider": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.AudioManager;->setMode"
+        ], 
+        "action_bar_back_button": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "samsung_1_phone": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "main_page_reminder_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/text1": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "fake_call_page_listview": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.AudioManager;->setMode"
+        ], 
+        "BACK": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.speech.SpeechRecognizer;->stopListening", 
+            "android.speech.SpeechRecognizer;->cancel"
+        ], 
+        "instant_call_page_switchButton": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "action_bar_back_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type3_divider": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type4_item2": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "list_view_type4_item3": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.AudioManager;->setMode"
+        ], 
+        "list_view_type4_name": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type4_item1": [
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "main_page_fake_call_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "list_view_type2_custom": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "imageView1": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "main_page_fake_call_text": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "recording_page_mic": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.media.MediaRecorder;->setAudioSource", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "reminder_page_init_layout": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "fake_call_page_divider": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type1_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "custom_page1_ListView": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "android.widget.FrameLayout": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "account_email": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.speech.SpeechRecognizer;->stopListening", 
+            "android.speech.SpeechRecognizer;->cancel"
+        ], 
+        "custom_page1_divider": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/button2": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "custom_page2_name": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "custom_page2_edit_phone_number": [
+            "android.content.ContentResolver;->insert", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "action_bar_option1_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "about_page_layout": [
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ], 
+        "android.view.View": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "custom_page1_layout": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "fake_call_make_a_call_button": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.AudioManager;->setMode"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.AudioManager;->setMode"
+        ], 
+        "custom_page2_done": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "grid": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "list_view_type4_photo": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "list_view_type1_text1": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "list_view_type4_number": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "cstom_page_2_use_this_caller_text": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "action_bar_option2_button": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "custom_page2_cancel": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "action_bar_option1_button": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "account_password": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.media.AudioManager;->setMode", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.speech.SpeechRecognizer;->cancel", 
+            "android.speech.SpeechRecognizer;->stopListening", 
+            "android.content.ContentResolver;->openAssetFileDescriptor"
+        ], 
+        "list_view_type_check": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "action_bar_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "custom_page2_edit_name": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "fake_call_make_a_call_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "action_bar_option2_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "custom_page2_photo": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "main_page_icon": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks"
+        ]
+    }
+}

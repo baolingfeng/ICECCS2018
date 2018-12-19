@@ -1,0 +1,7 @@
+<com.google.ads.AdActivity: void onDestroy()>	Permission:android.permission.WAKE_LOCK
+<com.google.ads.InstallReceiver: void onReceive(android.content.Context,android.content.Intent)>	Permission:android.permission.INTERNET
+<x: void a(f,java.util.HashMap,android.webkit.WebView)>	Permission:android.permission.WAKE_LOCK
+<c: public c(f)>	Permission:android.permission.INTERNET
+<com.google.ads.util.AdUtil: java.lang.String d(android.content.Context)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<y: void run()>	Permission:android.permission.INTERNET
+<i: public i(android.content.Context,com.google.ads.f)>	Permission:android.permission.INTERNET

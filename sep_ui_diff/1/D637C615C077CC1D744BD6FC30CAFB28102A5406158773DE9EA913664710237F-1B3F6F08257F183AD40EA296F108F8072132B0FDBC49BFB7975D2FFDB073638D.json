@@ -1,0 +1,168 @@
+{
+    "origin": {
+        "analog_appwidget": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ind_sync": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.TextView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.ImageView": [
+            "java.net.URL;->openConnection"
+        ], 
+        "cell1": [
+            "java.net.URL;->openConnection"
+        ], 
+        "cell2": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/button1": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell4": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ind_brightness": [
+            "java.net.URL;->openConnection"
+        ], 
+        "workspace": [
+            "java.net.URL;->openConnection"
+        ], 
+        "dock_divider": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ind_bluetooth": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.view.View": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ind_location": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.webkit.WebView": [
+            "java.net.URL;->openConnection"
+        ], 
+        "btn_location": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.LinearLayout": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "diff": {
+        "search_button_container": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "analog_appwidget": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_bluetooth": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.TextView": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell5": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell3": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/button1": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell4": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_brightness": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_location": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "repack": {
+        "search_button_container": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "analog_appwidget": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_bluetooth": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.TextView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/button1": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell3": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell5": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell4": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_brightness": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "workspace": [
+            "java.net.URL;->openConnection"
+        ], 
+        "btn_location": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }
+}

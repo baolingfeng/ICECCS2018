@@ -1,0 +1,130 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "appkey", 
+            "activities", 
+            "client_uuid", 
+            "start_millis", 
+            "session_id", 
+            "header", 
+            "req_time", 
+            "duration", 
+            "end_millis"
+        ], 
+        "called_apis": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "com.mobclick.android.m;->a", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "com.cjdao.util.CjdaoCommonUtil;->clientUUID", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "com.mobclick.android.l;->c", 
+            "java.lang.reflect.Method;->invoke", 
+            "com.cjdao.http.CjdaoCacheableHttpRequest;->run", 
+            "com.mobclick.android.e;->a"
+        ], 
+        "content_resolvers": [
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [], 
+        "hooked_method": [
+            "/values"
+        ], 
+        "others": {
+            "com.mobclick.android.m;->a": [
+                "[\"com.cjdao.trackback.MainActivity\"]", 
+                "[\"com.cjdao.trackback.LandingActivity\"]"
+            ], 
+            "com.cjdao.util.CjdaoCommonUtil;->clientUUID": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "com.mobclick.android.l;->c": [
+                "[\"com.cjdao.trackback.MainActivity\"]", 
+                "[\"com.cjdao.trackback.LandingActivity\"]"
+            ], 
+            "com.cjdao.http.CjdaoCacheableHttpRequest;->run": [
+                "[]"
+            ], 
+            "com.mobclick.android.e;->a": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "appkey", 
+            "activities", 
+            "client_uuid", 
+            "start_millis", 
+            "session_id", 
+            "header", 
+            "req_time", 
+            "duration", 
+            "end_millis"
+        ], 
+        "called_apis": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "com.mobclick.android.m;->a", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "com.cjdao.util.CjdaoCommonUtil;->clientUUID", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "com.mobclick.android.l;->c", 
+            "java.lang.reflect.Method;->invoke", 
+            "com.cjdao.http.CjdaoCacheableHttpRequest;->run", 
+            "com.mobclick.android.e;->a"
+        ], 
+        "content_resolvers": [
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [], 
+        "hooked_method": [
+            "/values"
+        ], 
+        "others": {
+            "com.mobclick.android.m;->a": [
+                "[\"com.cjdao.trackback.MainActivity\"]", 
+                "[\"com.cjdao.trackback.LandingActivity\"]"
+            ], 
+            "com.cjdao.util.CjdaoCommonUtil;->clientUUID": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "com.mobclick.android.l;->c": [
+                "[\"com.cjdao.trackback.MainActivity\"]", 
+                "[\"com.cjdao.trackback.LandingActivity\"]"
+            ], 
+            "com.cjdao.http.CjdaoCacheableHttpRequest;->run": [
+                "[]"
+            ], 
+            "com.mobclick.android.e;->a": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }
+}

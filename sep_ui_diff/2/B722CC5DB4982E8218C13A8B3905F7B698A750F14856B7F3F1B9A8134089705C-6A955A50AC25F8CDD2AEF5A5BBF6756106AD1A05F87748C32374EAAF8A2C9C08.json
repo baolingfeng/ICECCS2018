@@ -1,0 +1,47 @@
+{
+    "origin": {}, 
+    "diff": {
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_compartir": [
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "android:id/text1": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection"
+        ], 
+        "imageButton1": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL"
+        ], 
+        "btn_guardar": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "repack": {
+        "btn_guardar": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "btn_compartir": [
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "android:id/text1": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection"
+        ], 
+        "imageButton1": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL"
+        ], 
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }
+}

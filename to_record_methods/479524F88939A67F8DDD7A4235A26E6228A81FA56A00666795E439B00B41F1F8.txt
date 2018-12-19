@@ -1,0 +1,2 @@
+<com.magicwach.rdefense.GameActivity$SampleView: void cleanup()>	Permission:android.permission.WAKE_LOCK
+<com.magicwach.rdefense.GameActivity$SampleView: public com.magicwach.rdefense.GameActivity$SampleView(android.app.Activity,android.content.SharedPreferences)>	Permission:android.permission.WAKE_LOCK

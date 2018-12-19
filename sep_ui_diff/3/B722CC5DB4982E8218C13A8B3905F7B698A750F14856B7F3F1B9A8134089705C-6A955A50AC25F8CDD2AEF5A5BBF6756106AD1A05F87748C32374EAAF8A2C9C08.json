@@ -1,0 +1,67 @@
+{
+    "origin": {
+        "imageButton1": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_siguiente": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_guardar": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "btn_compartir": [
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "diff": {
+        "android:id/text1": [
+            "java.net.URL;->openConnection", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "left_drawer": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "repack": {
+        "btn_guardar": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "btn_compartir": [
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "android:id/text1": [
+            "java.net.URL;->openConnection", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "imageButton1": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "left_drawer": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }
+}

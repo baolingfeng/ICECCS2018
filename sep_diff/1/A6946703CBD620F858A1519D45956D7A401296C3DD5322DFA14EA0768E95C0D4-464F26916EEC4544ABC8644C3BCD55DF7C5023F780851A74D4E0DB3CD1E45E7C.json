@@ -1,0 +1,155 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [
+            "widget_grid", 
+            "widget_level"
+        ], 
+        "content_resolvers": [
+            "content://net.halfmobile.scannerpro.documents/documents"
+        ], 
+        "others": {
+            "android.app.ActivityThread;->installContentProviders": [
+                "[\"net.halfmobile.scannerpro.ScannerProApplication\"]"
+            ]
+        }, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "preferences_system_camera", 
+            "open_count", 
+            "widget_level", 
+            "preferences_enhancement_default", 
+            "preferences_page_layout", 
+            "welcome_executed", 
+            "preferences_adv_controls", 
+            "preferences_page_size", 
+            "preferences_scan_quality", 
+            "preferences_detect_corners", 
+            "preferences_export_quality", 
+            "widget_grid", 
+            "preferences_syncservices_syncon"
+        ], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.app.ActivityThread;->installContentProviders", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.content.ContentResolver;->query", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "NOT CACHED", 
+            "content://net.halfmobile.scannerpro.documents/documents"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.CONFIGURATION_CHANGED"
+        ], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getRotation", 
+            "android.widget.TextView/setRotation", 
+            "android.widget.ImageView/getRotation", 
+            "/values", 
+            "net.halfmobile.scanner.capture.FlashButton/getRotation", 
+            "net.halfmobile.scanner.m/provideBus", 
+            "net.halfmobile.scanner.capture.FlashButton/setRotation", 
+            "android.widget.ImageView/setRotation", 
+            "android.widget.LinearLayout/setRotation", 
+            "android.widget.TextView/getRotation"
+        ], 
+        "others": {
+            "android.app.ActivityThread;->installContentProviders": [
+                "[\"net.halfmobile.scannerpro.ScannerProApplication\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.app.ActivityThread;->installContentProviders", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "<html><head><script src=\"http://media.admob.com/sd"
+        ], 
+        "shared_preferences": [
+            "preferences_system_camera", 
+            "open_count", 
+            "preferences_enhancement_default", 
+            "preferences_page_layout", 
+            "welcome_executed", 
+            "preferences_adv_controls", 
+            "preferences_page_size", 
+            "preferences_scan_quality", 
+            "preferences_detect_corners", 
+            "preferences_export_quality", 
+            "preferences_syncservices_syncon"
+        ], 
+        "called_apis": [
+            "android.content.ContentResolver;->insert", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.app.ActivityThread;->installContentProviders", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->update", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://net.halfmobile.scannerfree.documents/documents", 
+            "NOT CACHED", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.CONFIGURATION_CHANGED", 
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getRotation", 
+            "android.widget.TextView/setRotation", 
+            "android.widget.ImageView/getRotation", 
+            "/values", 
+            "net.halfmobile.scanner.PostProcessingActivity/onPerspectiveCorrectionDone", 
+            "net.halfmobile.scanner.m/provideGson", 
+            "net.halfmobile.scanner.PostProcessingActivity/onDocumentSaveDonePressed", 
+            "android.view.View/setAlpha", 
+            "net.halfmobile.scanner.capture.FlashButton/getRotation", 
+            "net.halfmobile.scanner.m/provideBus", 
+            "/addChangeCallback", 
+            "net.halfmobile.scanner.PostProcessingActivity/onFilterProcessingForwardPressed", 
+            "net.halfmobile.scanner.capture.FlashButton/setRotation", 
+            "net.halfmobile.scanner.DocumentListActivity/numberOfDocumentsChanged", 
+            "android.widget.ImageView/setRotation", 
+            "net.halfmobile.scanner.m/provideTaskQueue", 
+            "/getLong", 
+            "android.widget.LinearLayout/setRotation", 
+            "android.widget.TextView/getRotation"
+        ], 
+        "others": {
+            "android.app.ActivityThread;->installContentProviders": [
+                "[\"net.halfmobile.scannerfree.ScannerFreeApplication\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->update", 
+            "android.app.ActivityThread;->installContentProviders", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

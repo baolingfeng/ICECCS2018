@@ -1,0 +1,31 @@
+{
+    "origin": {
+        "android.widget.TextView": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/button1": [
+            "java.net.URL;->openConnection"
+        ], 
+        "remember_forever": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/button2": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/message": [
+            "java.net.URL;->openConnection"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.LinearLayout": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "diff": {}, 
+    "repack": {
+        "BACK": [
+            "java.net.URL;->openConnection"
+        ]
+    }
+}

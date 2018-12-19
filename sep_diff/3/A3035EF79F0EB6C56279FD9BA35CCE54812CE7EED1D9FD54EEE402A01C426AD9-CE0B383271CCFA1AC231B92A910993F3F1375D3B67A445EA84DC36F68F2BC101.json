@@ -1,0 +1,132 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [
+            "ftp.ftpsmode[yourserver.com]"
+        ], 
+        "content_resolvers": [
+            "content://media/internal/images/media"
+        ], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "www.lysesoft.com"
+        ], 
+        "shared_preferences": [
+            "ftp.pasv[yourserver.com]", 
+            "ftp.username[yourserver.com]", 
+            "ftp.localdir[yourserver.com]", 
+            "ftp.url[yourserver.com]", 
+            "ftp.keypass[yourserver.com]", 
+            "ftp.version", 
+            "ftp.charset[yourserver.com]", 
+            "ftp.fontscale", 
+            "ftp.aliases", 
+            "ftp.type[yourserver.com]", 
+            "ftp.alias", 
+            "ftp.ftpsmode[yourserver.com]", 
+            "ftp.key", 
+            "ftp.resume[yourserver.com]", 
+            "ftp.layout", 
+            "ftp.cpextension", 
+            "ftp.eula", 
+            "ftp.hiddenfile", 
+            "ftp.keyfile[yourserver.com]", 
+            "ftp.remotedir[yourserver.com]", 
+            "ftp.tip", 
+            "ftp.uid", 
+            "ftp.crashreport", 
+            "ftp.password[yourserver.com]"
+        ], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "content_resolvers": [
+            "content://media/internal/video/media", 
+            "content://media/internal/images/media", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getTranslationX", 
+            "/getLong", 
+            "/addChangeCallback"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "www.lysesoft.com"
+        ], 
+        "shared_preferences": [
+            "ftp.pasv[yourserver.com]", 
+            "ftp.username[yourserver.com]", 
+            "ftp.localdir[yourserver.com]", 
+            "ftp.url[yourserver.com]", 
+            "ftp.keypass[yourserver.com]", 
+            "ftp.version", 
+            "ftp.charset[yourserver.com]", 
+            "ftp.fontscale", 
+            "ftp.aliases", 
+            "ftp.type[yourserver.com]", 
+            "ftp.alias", 
+            "ftp.key", 
+            "ftp.resume[yourserver.com]", 
+            "ftp.layout", 
+            "ftp.cpextension", 
+            "ftp.eula", 
+            "ftp.hiddenfile", 
+            "ftp.keyfile[yourserver.com]", 
+            "ftp.remotedir[yourserver.com]", 
+            "ftp.tip", 
+            "ftp.uid", 
+            "ftp.crashreport", 
+            "ftp.password[yourserver.com]"
+        ], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "content_resolvers": [
+            "content://media/internal/video/media", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getTranslationX", 
+            "/getLong", 
+            "/addChangeCallback"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

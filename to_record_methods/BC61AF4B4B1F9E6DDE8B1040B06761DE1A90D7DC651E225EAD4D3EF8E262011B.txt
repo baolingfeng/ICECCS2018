@@ -1,0 +1,11 @@
+<framework.net.NetworkManagerImpl: org.apache.http.HttpResponse openUrl(java.lang.String,java.lang.String)throwsjava.net.SocketTimeoutException>	Permission:android.permission.ACCESS_NETWORK_STATE	Permission:android.permission.INTERNET
+<framework.net.NetworkManagerImpl: org.apache.http.HttpResponse openUrl(java.lang.String)throwsjava.net.SocketTimeoutException>	Permission:android.permission.ACCESS_NETWORK_STATE	Permission:android.permission.INTERNET
+<framework.net.NetworkManagerImpl: framework.net.NetworkManager$NetworkType getNetworkType()>	Permission:android.permission.ACCESS_NETWORK_STATE
+<framework.util.LockHelperImpl: android.os.PowerManager$WakeLock acquireScreenOnWakeLock(android.content.Context)>	Permission:android.permission.WAKE_LOCK
+<framework.notification.NotificationHelperImpl: void addNotification(int,java.lang.String,java.lang.String,java.lang.String,boolean,long)>	Permission:android.permission.VIBRATE
+<framework.notification.NotificationHelperImpl: void addNotification(int,java.lang.String,java.lang.String,int,boolean,long)>	Permission:android.permission.VIBRATE
+<framework.notification.NotificationHelperImpl: void addNotification(int,java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,boolean,long)>	Permission:android.permission.VIBRATE
+<framework.util.DeviceInfoToolkit: java.lang.String obtainImei()>	Permission:android.permission.READ_PHONE_STATE
+<com.yy.fontmaster.pkg.Controller: void flashPkg(com.yy.fontmaster.pkg.OnActEventListener,java.lang.String,java.lang.String)>	Permission:android.permission.WAKE_LOCK
+<framework.net.NetworkManagerImpl: boolean hasNetwork()>	Permission:android.permission.ACCESS_NETWORK_STATE
+<framework.util.DeviceInfoToolkit: java.lang.String obtainImsi()>	Permission:android.permission.READ_PHONE_STATE

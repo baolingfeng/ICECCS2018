@@ -1,0 +1,4 @@
+<com.aduru.sdk.receivers.AduruInstallReceiver$1: void run()>	Permission:android.permission.INTERNET
+<com.Localytics.android.DatapointHelper: java.lang.String getNetworkType(android.content.Context,android.telephony.TelephonyManager)>	Permission:android.permission.ACCESS_WIFI_STATE
+<com.aduru.sdk.AdRequester: com.aduru.sdk.Advert getAduruAd(java.lang.String,java.lang.String,java.lang.String,int[])>	Permission:android.permission.INTERNET
+<com.aduru.sdk.AdInfo: java.lang.String getUserAgent(android.content.Context)>	Permission:android.permission.INTERNET

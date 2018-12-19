@@ -1,0 +1,68 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "show_setting_hide_system_min_cache_size", 
+            "eula.accepted", 
+            "setting_i_am_alive"
+        ], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "java.lang.reflect.Method;->invoke"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [
+            "ClearAllCacheByServiceDone", 
+            "android.intent.action.PACKAGE_ADDED", 
+            "android.intent.action.PACKAGE_REMOVED"
+        ], 
+        "hooked_method": [
+            "com.android.internal.app.ActionBarImpl/setHomeActionContentDescription", 
+            "android.app.ApplicationPackageManager/freeStorageAndNotify", 
+            "com.android.internal.app.ActionBarImpl/setHomeAsUpIndicator", 
+            "android.app.ApplicationPackageManager/getPackageSizeInfo"
+        ], 
+        "others": {}, 
+        "called_sen_apis": []
+    }, 
+    "origin_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "show_setting_hide_system_min_cache_size", 
+            "pNameList", 
+            "setting_i_am_alive", 
+            "eula.accepted"
+        ], 
+        "called_apis": [
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "java.lang.reflect.Method;->invoke"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [
+            "ClearAllCacheByServiceDone", 
+            "android.intent.action.PACKAGE_ADDED", 
+            "android.intent.action.PACKAGE_REMOVED"
+        ], 
+        "hooked_method": [
+            "com.android.internal.app.ActionBarImpl/setHomeActionContentDescription", 
+            "android.app.ApplicationPackageManager/freeStorageAndNotify", 
+            "com.android.internal.app.ActionBarImpl/setHomeAsUpIndicator", 
+            "android.app.ApplicationPackageManager/getPackageSizeInfo"
+        ], 
+        "others": {}, 
+        "called_sen_apis": []
+    }
+}

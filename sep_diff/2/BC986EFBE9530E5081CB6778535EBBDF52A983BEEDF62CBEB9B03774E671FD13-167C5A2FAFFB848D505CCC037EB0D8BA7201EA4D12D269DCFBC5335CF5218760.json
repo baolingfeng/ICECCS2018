@@ -1,0 +1,193 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [
+            "tui_app_id", 
+            "isInstantCall", 
+            "tui_app_secret"
+        ], 
+        "content_resolvers": [], 
+        "others": {
+            "android.os.PowerManager$WakeLock;->acquire": [
+                "[]"
+            ], 
+            "android.app.ActivityThread;->handleReceiver": [
+                "[\"ReceiverData{intent=Intent { flg=0x14 cmp=byappy.icallmeon/.AlarmReceiver (has extras) } packageName=byappy.icallmeon resultCode=0 resultData=null resultExtras=null}\"]"
+            ], 
+            "android.media.AudioManager;->setMode": [
+                "[\"0\"]"
+            ], 
+            "android.speech.SpeechRecognizer;->cancel": [
+                "[]"
+            ], 
+            "android.media.MediaRecorder;->setAudioSource": [
+                "[\"1\"]"
+            ], 
+            "android.speech.SpeechRecognizer;->stopListening": [
+                "[]"
+            ]
+        }, 
+        "broadcast_receivers": [
+            "android.intent.action.CLOSE_SYSTEM_DIALOGS"
+        ], 
+        "hooked_method": [], 
+        "called_apis": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.app.ActivityThread;->handleReceiver", 
+            "android.media.AudioManager;->setMode", 
+            "android.speech.SpeechRecognizer;->cancel", 
+            "android.media.MediaRecorder;->setAudioSource", 
+            "android.speech.SpeechRecognizer;->stopListening", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "called_sen_apis": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.speech.SpeechRecognizer;->cancel", 
+            "android.media.MediaRecorder;->setAudioSource", 
+            "android.media.AudioManager;->setMode", 
+            "android.speech.SpeechRecognizer;->stopListening"
+        ]
+    }, 
+    "repack_res": {
+        "urls": [
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_pop.jar", 
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_push.jar", 
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_present.jar", 
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_insert.jar", 
+            "file:/data/app/byappy.icallmeon-1.apk"
+        ], 
+        "shared_preferences": [
+            "KEY_APP_ID", 
+            "isFirst", 
+            "isInstantCall", 
+            "KEY_APP_SECRET", 
+            "KEY_IS_OPERATION_GETDATA", 
+            "tui_app_id", 
+            "KEY_INSTALLED_PACKAGENAME", 
+            "KEY_IS_OPERATION_GETCONFIG", 
+            "tui_app_secret"
+        ], 
+        "called_apis": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.app.ActivityThread;->handleReceiver", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.media.AudioManager;->setMode", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.speech.SpeechRecognizer;->cancel", 
+            "java.net.URL;->openConnection", 
+            "android.media.MediaRecorder;->setAudioSource", 
+            "android.speech.SpeechRecognizer;->stopListening", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [
+            "com.apps.Receiver.push", 
+            "com.apps.Receiver.INSERT", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.CLOSE_SYSTEM_DIALOGS", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.intent.action.PHONE_STATE", 
+            "android.intent.action.SCREEN_ON", 
+            "com.apps.Receiver.updatedata"
+        ], 
+        "hooked_method": [
+            "/values"
+        ], 
+        "others": {
+            "android.os.PowerManager$WakeLock;->acquire": [
+                "[]"
+            ], 
+            "android.app.ActivityThread;->handleReceiver": [
+                "[\"ReceiverData{intent=Intent { flg=0x14 cmp=byappy.icallmeon/.AlarmReceiver (has extras) } packageName=byappy.icallmeon resultCode=0 resultData=null resultExtras=null}\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "android.media.AudioManager;->setMode": [
+                "[\"0\"]"
+            ], 
+            "android.app.ActivityManager;->getRunningTasks": [
+                "[\"1\"]"
+            ], 
+            "android.speech.SpeechRecognizer;->cancel": [
+                "[]"
+            ], 
+            "android.media.MediaRecorder;->setAudioSource": [
+                "[\"1\"]"
+            ], 
+            "android.speech.SpeechRecognizer;->stopListening": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection", 
+            "android.media.AudioManager;->setMode", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.speech.SpeechRecognizer;->cancel", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.media.MediaRecorder;->setAudioSource", 
+            "android.speech.SpeechRecognizer;->stopListening", 
+            "android.content.ContentResolver;->openAssetFileDescriptor"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_pop.jar", 
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_push.jar", 
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_present.jar", 
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_insert.jar", 
+            "file:/data/app/byappy.icallmeon-1.apk"
+        ], 
+        "shared_preferences": [
+            "KEY_APP_ID", 
+            "isFirst", 
+            "KEY_APP_SECRET", 
+            "KEY_IS_OPERATION_GETDATA", 
+            "KEY_INSTALLED_PACKAGENAME", 
+            "KEY_IS_OPERATION_GETCONFIG"
+        ], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "java.net.URL;->openConnection", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [
+            "com.apps.Receiver.push", 
+            "com.apps.Receiver.INSERT", 
+            "android.intent.action.PHONE_STATE", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.SCREEN_ON", 
+            "com.apps.Receiver.updatedata"
+        ], 
+        "hooked_method": [
+            "/values"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "android.app.ActivityManager;->getRunningTasks": [
+                "[\"1\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "java.net.URL;->openConnection", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ]
+    }
+}

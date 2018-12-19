@@ -1,0 +1,6 @@
+<org.apache.commons.net.DefaultSocketFactory: java.net.ServerSocket createServerSocket(int)throwsjava.io.IOException>	Permission:android.permission.INTERNET
+<lysesoft.andftp.SettingsActivity: void b()>	Permission:android.permission.INTERNET
+<lysesoft.andftp.OptionsActivity: void e()>	Permission:android.permission.INTERNET
+<lysesoft.transfer.client.core.TransferService: void a(int)>	Permission:android.permission.VIBRATE
+<org.apache.commons.net.DefaultDatagramSocketFactory: java.net.DatagramSocket createDatagramSocket(int)throwsjava.net.SocketException>	Permission:android.permission.INTERNET
+<lysesoft.andftp.OptionsActivity: void b()>	Permission:android.permission.INTERNET

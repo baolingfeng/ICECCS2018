@@ -1,0 +1,163 @@
+{
+    "origin": {}, 
+    "diff": {
+        "search_button_container": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "loading_spinner": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_left2": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.TextView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "loading_background": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_more": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell3": [
+            "java.net.URL;->openConnection"
+        ], 
+        "cell5": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell4": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_brightness": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_left_slider": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "loading_frame": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_left1": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "analog_appwidget": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/button2": [
+            "java.net.URL;->openConnection", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_right4": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "view_containter": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_right2": [
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "repack": {
+        "search_button_container": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "loading_spinner": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_right4": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.TextView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "loading_background": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_more": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell3": [
+            "java.net.URL;->openConnection"
+        ], 
+        "cell5": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell4": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_brightness": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_left_slider": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "loading_frame": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_left1": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "analog_appwidget": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_right2": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/button2": [
+            "java.net.URL;->openConnection", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "view_containter": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_left2": [
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }
+}

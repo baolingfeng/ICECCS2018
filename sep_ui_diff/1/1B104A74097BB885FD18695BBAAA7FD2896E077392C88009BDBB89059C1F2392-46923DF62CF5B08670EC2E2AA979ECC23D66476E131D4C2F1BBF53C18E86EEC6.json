@@ -1,0 +1,100 @@
+{
+    "origin": {
+        "welcomelogo": [
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "android.widget.TextView": [
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "BACK": [
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "btntoptext": [
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "PPTconbtn": [
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "pptbtnimage": [
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "mouse_right": [
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "welcometext2": [
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "welcometext1": [
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ]
+    }, 
+    "diff": {}, 
+    "repack": {
+        "welcomelogo": [
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "android.widget.TextView": [
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "BACK": [
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "btntoptext": [
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "PPTconbtn": [
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "pptbtnimage": [
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "mouse_right": [
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "welcometext2": [
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "welcometext1": [
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ]
+    }
+}

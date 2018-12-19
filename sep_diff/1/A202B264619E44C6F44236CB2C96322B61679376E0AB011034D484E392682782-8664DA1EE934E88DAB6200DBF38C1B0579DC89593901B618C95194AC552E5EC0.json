@@ -1,0 +1,88 @@
+{
+    "diff": {
+        "urls": [
+            "javascript:try{cordova.fireDocumentEvent('pause');", 
+            "javascript:try{cordova.fireDocumentEvent('resume')"
+        ], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getTranslationX"
+        ], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "javascript:try{cordova.fireDocumentEvent('pause');", 
+            "file:///android_asset/www/index.html", 
+            "javascript:try{cordova.fireDocumentEvent('resume')"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl", 
+            "java.lang.reflect.Method;->invoke"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.CONFIGURATION_CHANGED", 
+            "android.intent.action.PHONE_STATE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.security.STORAGE_CHANGED", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.PROXY_CHANGE"
+        ], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getTranslationX", 
+            "/getLong", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "file:///android_asset/www/index.html"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl", 
+            "java.lang.reflect.Method;->invoke"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.CONFIGURATION_CHANGED", 
+            "android.intent.action.PHONE_STATE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.security.STORAGE_CHANGED", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.PROXY_CHANGE"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }
+}

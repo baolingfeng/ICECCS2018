@@ -1,0 +1,152 @@
+{
+    "origin": {
+        "android.widget.Button": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.TextView": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/button1": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.ImageView": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "donotshow": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "ScrollView01": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "embedded_text_editor": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "BACK": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.ProgressBar": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "IntroView": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "start": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "tryPro": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "score": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "board": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/webviewchromium_select_action_menu_web_search": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "burstbutton": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "BubbleImage": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.view.View": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.webkit.WebView": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "more": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ]
+    }, 
+    "diff": {
+        "btn_bluetooth": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/webviewchromium_select_action_menu_share": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.widget.TextView": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_sync": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/list": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "duration_text": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "workspace": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "repack": {
+        "btn_bluetooth": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/webviewchromium_select_action_menu_share": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.widget.TextView": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_sync": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/list": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "BACK": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "start": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "tryPro": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "workspace": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.view.View": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "duration_text": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }
+}

@@ -1,0 +1,90 @@
+{
+    "diff": {
+        "urls": [
+            "website.3g518.org"
+        ], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "website.3g518.org"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl", 
+            "java.lang.reflect.Method;->invoke"
+        ], 
+        "content_resolvers": [
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "com.air.teacity.HomeActivity/HomeItemOnClick", 
+            "/getLong", 
+            "/values", 
+            "com.air.teacity.MoreActivity/clickNavigation", 
+            "com.air.teacity.LoginActivity/loginOnClick", 
+            "/addChangeCallback", 
+            "com.air.teacity.ScActivity/clickNavigation", 
+            "com.air.teacity.HomeActivity/clickNavigation", 
+            "com.air.teacity.LoginActivity/clickNavigation", 
+            "com.air.teacity.MoreActivity/onMoreClick"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "json.3g518.org"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl", 
+            "java.lang.reflect.Method;->invoke"
+        ], 
+        "content_resolvers": [
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "com.air.teacity.HomeActivity/HomeItemOnClick", 
+            "/getLong", 
+            "/values", 
+            "com.air.teacity.MoreActivity/clickNavigation", 
+            "com.air.teacity.LoginActivity/loginOnClick", 
+            "com.air.teacity.MessageActivity/onClickTj", 
+            "/addChangeCallback", 
+            "com.air.teacity.JsActivity/onClickNet", 
+            "com.air.teacity.ScActivity/clickNavigation", 
+            "com.air.teacity.ScActivity/newsOnClick", 
+            "com.air.teacity.HomeActivity/clickNavigation", 
+            "com.air.teacity.LoginActivity/clickNavigation", 
+            "com.air.teacity.ScActivity/proOnClick", 
+            "com.air.teacity.MoreActivity/onMoreClick"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "origin": {
+        "cell5": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.LinearLayout": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "diff": {
+        "android:id/summary": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/list": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.TextView": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/text1": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/button1": [
+            "java.net.URL;->openConnection"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/checkbox": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/title": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "repack": {
+        "android:id/summary": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/list": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.TextView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/text1": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/button1": [
+            "java.net.URL;->openConnection"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/checkbox": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/title": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.LinearLayout": [
+            "java.net.URL;->openConnection"
+        ]
+    }
+}

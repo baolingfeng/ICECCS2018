@@ -1,0 +1,160 @@
+{
+    "origin": {
+        "tvTimeRemaining": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "rlMoreOptionsItem": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "rlNext": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "rlPrev": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "android:id/button1": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->delete", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "imgMoreOptionsItem": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.os.PowerManager$WakeLock;->release", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.content.ContentResolver;->openAssetFileDescriptor"
+        ], 
+        "embedded_text_editor": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "BACK": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "recipients_editor": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "android:id/button_once": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "rlMoreOptions": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "rlPresetOption4": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "android:id/select_dialog_listview": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "android.widget.TextView": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "rlMainMenuHandle": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.os.PowerManager$WakeLock;->release", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.content.ContentResolver;->openAssetFileDescriptor"
+        ], 
+        "rlPlayPauseContainer": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "txtMoreOptionsItem": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "rlBookmarksItem": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.os.PowerManager$WakeLock;->release", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.content.ContentResolver;->openAssetFileDescriptor"
+        ], 
+        "history": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ]
+    }, 
+    "diff": {}, 
+    "repack": {
+        "android:id/button1": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "BACK": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ]
+    }
+}

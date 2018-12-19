@@ -1,0 +1,109 @@
+{
+    "diff": {
+        "urls": [
+            "s3.amazonaws.com", 
+            "javascript:didChangeOrientation('Android', 'portra", 
+            "file:///data/data/com.a14037621400514430169/files/freestyleh.html"
+        ], 
+        "shared_preferences": [
+            "version_badge_required", 
+            "favorite_badge_required", 
+            "first_run"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "others": {}, 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/addChangeCallback"
+        ], 
+        "called_apis": [
+            "java.net.URL;->openConnection", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "called_sen_apis": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "repack_res": {
+        "urls": [
+            "s3.amazonaws.com", 
+            "javascript:didChangeOrientation('Android', 'portra", 
+            "file:///data/data/com.a14037621400514430169/files/freestyleh.html"
+        ], 
+        "shared_preferences": [
+            "version_badge_required", 
+            "favorite_badge_required", 
+            "first_run"
+        ], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl", 
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "java.lang.reflect.Method;->invoke"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [
+            "android.net.conn.CONNECTIVITY_CHANGE"
+        ], 
+        "hooked_method": [
+            "com.applacarte.ui.ThemeActivity/onAdminEmailClick", 
+            "/values"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ]
+    }
+}

@@ -1,0 +1,196 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [
+            "showatscreenonuser", 
+            "s_height", 
+            "phone_imei", 
+            "IS_INIT_INSTALL", 
+            "uid", 
+            "t_mode", 
+            "today_date", 
+            "init_install", 
+            "screen_width", 
+            "app_key", 
+            "timing_mode", 
+            "available_request_num", 
+            "screen_off", 
+            "push_channel", 
+            "request_ad_time", 
+            "appkey", 
+            "twice_space_time", 
+            "app_ch", 
+            "s_width", 
+            "density_dpi", 
+            "phone_imsi", 
+            "screen_height"
+        ], 
+        "content_resolvers": [], 
+        "others": {
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getSimSerialNumber": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getSubscriberId": [
+                "[]"
+            ]
+        }, 
+        "broadcast_receivers": [
+            "android.intent.action.SCREEN_ON"
+        ], 
+        "hooked_method": [], 
+        "called_apis": [
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getSubscriberId"
+        ]
+    }, 
+    "repack_res": {
+        "urls": [
+            "javascript:cordova.fireDocumentEvent('backbutton')", 
+            "javascript:onResume();", 
+            "file:///android_asset/www/index.html", 
+            "media.admob.com"
+        ], 
+        "shared_preferences": [
+            "showatscreenonuser", 
+            "s_height", 
+            "phone_imei", 
+            "drt", 
+            "drt_ts", 
+            "IS_INIT_INSTALL", 
+            "uid", 
+            "t_mode", 
+            "today_date", 
+            "init_install", 
+            "screen_width", 
+            "app_key", 
+            "timing_mode", 
+            "available_request_num", 
+            "screen_off", 
+            "push_channel", 
+            "request_ad_time", 
+            "appkey", 
+            "twice_space_time", 
+            "app_ch", 
+            "s_width", 
+            "density_dpi", 
+            "phone_imsi", 
+            "screen_height"
+        ], 
+        "called_apis": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.content.ContentResolver;->query", 
+            "android.telephony.TelephonyManager;->getSubscriberId"
+        ], 
+        "content_resolvers": [
+            "content://com.google.plus.platform/token", 
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.CONFIGURATION_CHANGED", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.intent.action.SCREEN_ON", 
+            "android.intent.action.PHONE_STATE", 
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/a", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getSimSerialNumber": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getSubscriberId": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "javascript:cordova.fireDocumentEvent('backbutton')", 
+            "javascript:onResume();", 
+            "file:///android_asset/www/index.html", 
+            "media.admob.com"
+        ], 
+        "shared_preferences": [
+            "drt_ts", 
+            "drt"
+        ], 
+        "called_apis": [
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "content_resolvers": [
+            "content://com.google.plus.platform/token", 
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.CONFIGURATION_CHANGED", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.intent.action.PHONE_STATE", 
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/a", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

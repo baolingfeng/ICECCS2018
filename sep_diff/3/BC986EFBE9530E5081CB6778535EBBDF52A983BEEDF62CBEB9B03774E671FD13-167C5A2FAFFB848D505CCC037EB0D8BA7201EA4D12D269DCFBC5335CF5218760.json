@@ -1,0 +1,234 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [
+            "tui_app_id", 
+            "KEY_IS_OPERATION_SENDDATA", 
+            "tui_app_secret"
+        ], 
+        "content_resolvers": [
+            "NOT CACHED"
+        ], 
+        "others": {
+            "android.app.ActivityThread;->handleReceiver": [
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=byappy.icallmeon/com.appsinsert.Receiver (has extras) } packageName=byappy.icallmeon resultCode=0 resultData=null resultExtras=null}\"]", 
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=byappy.icallmeon/com.appspush.Receiver (has extras) } packageName=byappy.icallmeon resultCode=0 resultData=null resultExtras=null}\"]", 
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=byappy.icallmeon/com.appspop.Receiver (has extras) } packageName=byappy.icallmeon resultCode=0 resultData=null resultExtras=null}\"]", 
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=byappy.icallmeon/com.appspresent.Receiver (has extras) } packageName=byappy.icallmeon resultCode=0 resultData=null resultExtras=null}\"]"
+            ]
+        }, 
+        "broadcast_receivers": [
+            "com.apps.Receiver.sendstat", 
+            "android.intent.action.CLOSE_SYSTEM_DIALOGS"
+        ], 
+        "hooked_method": [
+            "com.apps.insert.Receiver/onReceive", 
+            "com.apps.push.Receiver/contextSet", 
+            "com.apps.present.Receiver/contextSet", 
+            "com.apps.push.download.DownloadServices/onCreate", 
+            "com.apps.pop.download.DownloadServices/onStartCommand", 
+            "com.apps.pop.download.DownloadServices/onCreate", 
+            "com.apps.pop.download.DownloadServices/contextSet", 
+            "com.apps.push.download.DownloadServices/contextSet", 
+            "com.apps.insert.download.DownloadServices/onStartCommand", 
+            "com.apps.present.download.DownloadServices/onCreate", 
+            "com.apps.insert.Receiver/contextSet", 
+            "com.apps.insert.download.DownloadServices/onCreate", 
+            "com.apps.push.Receiver/onReceive", 
+            "com.apps.insert.download.DownloadServices/contextSet", 
+            "com.apps.pop.Receiver/onReceive", 
+            "com.apps.present.Receiver/onReceive", 
+            "com.apps.present.download.DownloadServices/contextSet", 
+            "com.apps.push.download.DownloadServices/onStartCommand", 
+            "com.apps.present.download.DownloadServices/onStartCommand", 
+            "com.apps.pop.Receiver/contextSet"
+        ], 
+        "called_apis": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "called_sen_apis": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "repack_res": {
+        "urls": [
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_pop.jar", 
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_push.jar", 
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_present.jar", 
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_insert.jar", 
+            "file:/data/app/byappy.icallmeon-1.apk"
+        ], 
+        "shared_preferences": [
+            "KEY_APP_ID", 
+            "isFirst", 
+            "KEY_IS_OPERATION_SENDDATA", 
+            "KEY_APP_SECRET", 
+            "KEY_IS_OPERATION_GETDATA", 
+            "tui_app_id", 
+            "KEY_INSTALLED_PACKAGENAME", 
+            "KEY_IS_OPERATION_GETCONFIG", 
+            "tui_app_secret"
+        ], 
+        "called_apis": [
+            "android.app.ActivityThread;->handleReceiver", 
+            "android.content.ContentResolver;->insert", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "java.net.URL;->openConnection", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "content_resolvers": [
+            "NOT CACHED"
+        ], 
+        "broadcast_receivers": [
+            "com.apps.Receiver.push", 
+            "com.apps.Receiver.INSERT", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.CLOSE_SYSTEM_DIALOGS", 
+            "com.apps.Receiver.sendstat", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.intent.action.PHONE_STATE", 
+            "android.intent.action.SCREEN_ON", 
+            "com.apps.Receiver.updatedata"
+        ], 
+        "hooked_method": [
+            "com.apps.insert.Receiver/onReceive", 
+            "com.apps.push.Receiver/contextSet", 
+            "com.apps.push.download.DownloadServices/contextSet", 
+            "com.apps.present.Receiver/contextSet", 
+            "com.apps.pop.download.DownloadServices/onStartCommand", 
+            "/values", 
+            "com.apps.pop.download.DownloadServices/onCreate", 
+            "com.apps.pop.download.DownloadServices/contextSet", 
+            "com.apps.pop.Receiver/contextSet", 
+            "com.apps.present.download.DownloadServices/onCreate", 
+            "com.apps.insert.Receiver/contextSet", 
+            "com.apps.push.Receiver/onReceive", 
+            "com.apps.insert.download.DownloadServices/onCreate", 
+            "com.apps.insert.download.DownloadServices/onStartCommand", 
+            "com.apps.insert.download.DownloadServices/contextSet", 
+            "com.apps.pop.Receiver/onReceive", 
+            "com.apps.present.download.DownloadServices/contextSet", 
+            "com.apps.push.download.DownloadServices/onStartCommand", 
+            "com.apps.push.download.DownloadServices/onCreate", 
+            "com.apps.present.download.DownloadServices/onStartCommand", 
+            "com.apps.present.Receiver/onReceive"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "android.app.ActivityManager;->getRunningTasks": [
+                "[\"1\"]"
+            ], 
+            "android.app.ActivityThread;->handleReceiver": [
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=byappy.icallmeon/com.appsinsert.Receiver (has extras) } packageName=byappy.icallmeon resultCode=0 resultData=null resultExtras=null}\"]", 
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=byappy.icallmeon/com.appspush.Receiver (has extras) } packageName=byappy.icallmeon resultCode=0 resultData=null resultExtras=null}\"]", 
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=byappy.icallmeon/com.appspresent.Receiver (has extras) } packageName=byappy.icallmeon resultCode=0 resultData=null resultExtras=null}\"]", 
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=byappy.icallmeon/com.appspop.Receiver (has extras) } packageName=byappy.icallmeon resultCode=0 resultData=null resultExtras=null}\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.content.ContentResolver;->insert", 
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_pop.jar", 
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_push.jar", 
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_present.jar", 
+            "jar:file:/data/app/byappy.icallmeon-1.apk!/assets/apps_insert.jar", 
+            "file:/data/app/byappy.icallmeon-1.apk"
+        ], 
+        "shared_preferences": [
+            "KEY_APP_ID", 
+            "isFirst", 
+            "isInstantCall", 
+            "KEY_APP_SECRET", 
+            "KEY_IS_OPERATION_GETDATA", 
+            "KEY_INSTALLED_PACKAGENAME", 
+            "KEY_IS_OPERATION_GETCONFIG"
+        ], 
+        "called_apis": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.app.ActivityThread;->handleReceiver", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.media.AudioManager;->setMode", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.speech.SpeechRecognizer;->cancel", 
+            "java.net.URL;->openConnection", 
+            "android.media.MediaRecorder;->setAudioSource", 
+            "android.speech.SpeechRecognizer;->stopListening", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [
+            "com.apps.Receiver.push", 
+            "com.apps.Receiver.INSERT", 
+            "android.intent.action.PHONE_STATE", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.SCREEN_ON", 
+            "com.apps.Receiver.updatedata"
+        ], 
+        "hooked_method": [
+            "/values"
+        ], 
+        "others": {
+            "android.os.PowerManager$WakeLock;->acquire": [
+                "[]"
+            ], 
+            "android.app.ActivityThread;->handleReceiver": [
+                "[\"ReceiverData{intent=Intent { flg=0x14 cmp=byappy.icallmeon/.AlarmReceiver (has extras) } packageName=byappy.icallmeon resultCode=0 resultData=null resultExtras=null}\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "android.media.AudioManager;->setMode": [
+                "[\"0\"]"
+            ], 
+            "android.app.ActivityManager;->getRunningTasks": [
+                "[\"1\"]"
+            ], 
+            "android.speech.SpeechRecognizer;->cancel": [
+                "[]"
+            ], 
+            "android.media.MediaRecorder;->setAudioSource": [
+                "[\"1\"]"
+            ], 
+            "android.speech.SpeechRecognizer;->stopListening": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection", 
+            "android.media.AudioManager;->setMode", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.speech.SpeechRecognizer;->cancel", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.media.MediaRecorder;->setAudioSource", 
+            "android.speech.SpeechRecognizer;->stopListening", 
+            "android.content.ContentResolver;->openAssetFileDescriptor"
+        ]
+    }
+}

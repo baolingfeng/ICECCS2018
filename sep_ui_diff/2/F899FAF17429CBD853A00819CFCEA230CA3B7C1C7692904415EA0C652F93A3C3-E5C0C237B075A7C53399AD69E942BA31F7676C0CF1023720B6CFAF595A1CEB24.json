@@ -1,0 +1,39 @@
+{
+    "origin": {
+        "this_time_only": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.TextView": [
+            "java.net.URL;->openConnection"
+        ], 
+        "developer_warning": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/button1": [
+            "java.net.URL;->openConnection"
+        ], 
+        "remember_forever": [
+            "java.net.URL;->openConnection"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection"
+        ], 
+        "remember_for": [
+            "java.net.URL;->openConnection"
+        ], 
+        "packageinfo": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/message": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/button2": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.LinearLayout": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "diff": {}, 
+    "repack": {}
+}

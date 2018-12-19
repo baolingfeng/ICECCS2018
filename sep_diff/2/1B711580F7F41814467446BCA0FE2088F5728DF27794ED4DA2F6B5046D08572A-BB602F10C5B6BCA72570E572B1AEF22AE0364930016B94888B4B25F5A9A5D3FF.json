@@ -1,0 +1,158 @@
+{
+    "diff": {
+        "urls": [
+            "ade.wooboo.com.cn", 
+            "10.0.0.172", 
+            "www.baidu.com", 
+            "162.105.131.113", 
+            "www.wooboo.com.cn"
+        ], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "www.baidu.com", 
+            "ade.wooboo.com.cn", 
+            "file:///android_asset/info.htm", 
+            "10.0.0.172", 
+            "162.105.131.113", 
+            "www.wooboo.com.cn"
+        ], 
+        "shared_preferences": [
+            "PlayTime", 
+            "checkbox", 
+            "IsSeted", 
+            "selected"
+        ], 
+        "called_apis": [
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getTranslationX", 
+            "/getLong", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->listen": [
+                "[\"com.omesoft.nosick.ActivityMain$MyPhoneStateListener\", \"32\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getLine1Number": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getSimSerialNumber": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "gw.youmi.net", 
+            "file:///android_asset/info.htm"
+        ], 
+        "shared_preferences": [
+            "PlayTime", 
+            "checkbox", 
+            "IsSeted", 
+            "selected"
+        ], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.webkit.WebView;->loadUrl", 
+            "net.youmi.android.ag;->l", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "java.net.URL;->openConnection", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "net.youmi.android.ag;->h"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getTranslationX", 
+            "/getLong", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->getSubscriberId": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getLine1Number": [
+                "[]"
+            ], 
+            "net.youmi.android.ag;->l": [
+                "[\"com.omesoft.nosick.ActivityMain\"]", 
+                "[\"com.omesoft.nosick.dao.ShowList\"]", 
+                "[\"com.omesoft.nosick.WebAbout\"]", 
+                "[\"com.omesoft.nosick.dao.ShowInfo\"]"
+            ], 
+            "android.telephony.TelephonyManager;->listen": [
+                "[\"com.omesoft.nosick.ActivityMain$MyPhoneStateListener\", \"32\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getSimSerialNumber": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "net.youmi.android.ag;->h": [
+                "[\"com.omesoft.nosick.ActivityMain\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }
+}

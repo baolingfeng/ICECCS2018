@@ -1,0 +1,8 @@
+<framework.e.b: void a(int,java.lang.String,java.lang.String,int,long)>	Permission:android.permission.VIBRATE
+<com.yy.fontmaster.pkg.ActFlashPkg: void d()>	Permission:android.permission.WAKE_LOCK
+<com.yy.fontmaster.SoftApplication: void onCreate()>	Permission:android.permission.READ_PHONE_STATE
+<framework.g.e: android.os.PowerManager$WakeLock a(android.content.Context)>	Permission:android.permission.WAKE_LOCK
+<framework.e.b: void a(int,java.lang.String,java.lang.String,java.lang.String,android.app.PendingIntent,long)>	Permission:android.permission.VIBRATE
+<framework.e.b: void a(int,java.lang.String,java.lang.String,java.lang.String,boolean,long)>	Permission:android.permission.VIBRATE
+<framework.d.l: int a(java.net.HttpURLConnection)>	Permission:android.permission.INTERNET
+<framework.d.l: java.net.HttpURLConnection a(java.lang.String)>	Permission:android.permission.ACCESS_NETWORK_STATE	Permission:android.permission.INTERNET

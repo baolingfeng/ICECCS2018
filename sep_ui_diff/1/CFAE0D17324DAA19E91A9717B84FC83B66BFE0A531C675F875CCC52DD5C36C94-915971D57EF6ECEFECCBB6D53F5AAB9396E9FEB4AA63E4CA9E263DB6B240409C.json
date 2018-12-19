@@ -1,0 +1,23 @@
+{
+    "origin": {}, 
+    "diff": {
+        "android.widget.FrameLayout": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "repack": {
+        "android.widget.FrameLayout": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

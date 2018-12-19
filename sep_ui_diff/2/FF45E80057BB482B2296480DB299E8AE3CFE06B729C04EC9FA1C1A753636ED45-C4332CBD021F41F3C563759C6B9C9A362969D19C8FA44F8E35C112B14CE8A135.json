@@ -1,0 +1,39 @@
+{
+    "origin": {}, 
+    "diff": {
+        "btn_brightness": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell5": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.LinearLayout": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "repack": {
+        "btn_brightness": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell5": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.LinearLayout": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }
+}

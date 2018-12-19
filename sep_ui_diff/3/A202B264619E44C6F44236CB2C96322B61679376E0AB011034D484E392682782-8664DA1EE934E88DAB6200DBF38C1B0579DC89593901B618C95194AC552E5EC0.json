@@ -1,0 +1,74 @@
+{
+    "origin": {
+        "cell4": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "img_brightness": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "workspace": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "dock_divider": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "diff": {
+        "search_button_container": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.Button": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/webviewchromium_select_action_menu_share": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell5": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/webviewchromium_select_action_menu_web_search": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.view.View": [
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "repack": {
+        "search_button_container": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.Button": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/webviewchromium_select_action_menu_share": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell5": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/webviewchromium_select_action_menu_web_search": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.view.View": [
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }
+}

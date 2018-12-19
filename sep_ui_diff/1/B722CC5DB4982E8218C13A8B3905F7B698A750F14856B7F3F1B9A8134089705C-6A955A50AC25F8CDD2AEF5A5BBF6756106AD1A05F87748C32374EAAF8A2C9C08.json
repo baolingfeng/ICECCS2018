@@ -1,0 +1,137 @@
+{
+    "origin": {}, 
+    "diff": {
+        "android.widget.Button": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_siguiente": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_centro": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_guardar": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->delete"
+        ], 
+        "btn_compartir": [
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "url": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/text1": [
+            "android.content.ContentResolver;->insert", 
+            "java.net.URL;->openConnection", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->delete"
+        ], 
+        "android.view.View": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "error_console": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "imageButton1": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "tab_switcher": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "iconcombo": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.RelativeLayout": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.EditText": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "left_drawer": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "nbre": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "repack": {
+        "android.widget.Button": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_siguiente": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_centro": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_guardar": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->delete"
+        ], 
+        "btn_compartir": [
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "url": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/text1": [
+            "android.content.ContentResolver;->insert", 
+            "java.net.URL;->openConnection", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->delete"
+        ], 
+        "nbre": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.RelativeLayout": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "error_console": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "imageButton1": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "tab_switcher": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "iconcombo": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "left_drawer": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.EditText": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.view.View": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }
+}

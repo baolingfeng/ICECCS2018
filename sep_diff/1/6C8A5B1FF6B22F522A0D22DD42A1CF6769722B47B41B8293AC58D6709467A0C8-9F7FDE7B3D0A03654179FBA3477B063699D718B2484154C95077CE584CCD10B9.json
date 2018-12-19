@@ -1,0 +1,53 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "called_apis": [], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "others": {}, 
+        "called_sen_apis": []
+    }, 
+    "origin_res": {
+        "urls": [
+            "wap.casee.cn"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "java.net.URL;->openConnection", 
+            "com.casee.adsdk.LocationProvider;->run", 
+            "com.casee.adsdk.AdFetcher;->getConnection", 
+            "android.location.LocationManager;->getBestProvider"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "others": {
+            "android.location.LocationManager;->getBestProvider": [
+                "[\"true\"]"
+            ], 
+            "com.casee.adsdk.LocationProvider;->run": [
+                "[]"
+            ], 
+            "com.casee.adsdk.AdFetcher;->getConnection": [
+                "[\"oms.sdt.colorlist\", \"wap.casee.cn\"]", 
+                "[\"oms.sdt.main\", \"wap.casee.cn\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "java.net.URL;->openConnection", 
+            "android.location.LocationManager;->getBestProvider"
+        ]
+    }
+}

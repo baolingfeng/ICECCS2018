@@ -1,0 +1,95 @@
+{
+    "origin": {
+        "android:id/summary": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "More_pb": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "load_button": [
+            "android.content.ContentResolver;->openInputStream", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "set_button": [
+            "android.content.ContentResolver;->openInputStream", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/title": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "more": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "diff": {
+        "camera_button": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "More_webView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "before_button": [
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "android.webkit.WebView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "repack": {
+        "android:id/summary": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "camera_button": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "load_button": [
+            "android.content.ContentResolver;->openInputStream", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "before_button": [
+            "android.content.ContentResolver;->openInputStream"
+        ], 
+        "set_button": [
+            "android.content.ContentResolver;->openInputStream", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "More_webView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/title": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.webkit.WebView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "more": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }
+}

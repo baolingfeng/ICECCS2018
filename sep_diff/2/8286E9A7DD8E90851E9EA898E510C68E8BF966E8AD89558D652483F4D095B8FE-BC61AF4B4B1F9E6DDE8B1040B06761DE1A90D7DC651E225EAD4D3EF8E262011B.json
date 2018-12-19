@@ -1,0 +1,74 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "_isFirstRun"
+        ], 
+        "called_apis": [
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [
+            "/values"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->getSubscriberId": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "client.api.paojiao.cn"
+        ], 
+        "shared_preferences": [
+            "_isFirstRun"
+        ], 
+        "called_apis": [
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [
+            "/values"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->getSubscriberId": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ]
+    }
+}

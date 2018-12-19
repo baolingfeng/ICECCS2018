@@ -1,0 +1,12 @@
+<com.wooboo.adlib_android.d: void c(android.content.Context)>	Permission:android.permission.READ_PHONE_STATE
+<com.omesoft.nosick.MusicService$1: void pause()throwsandroid.os.RemoteException>	Permission:android.permission.WAKE_LOCK
+<com.wooboo.adlib_android.d: java.lang.String e(android.content.Context)>	Permission:android.permission.READ_PHONE_STATE
+<com.wooboo.adlib_android.c$1: void run()>	Permission:android.permission.INTERNET
+<com.omesoft.nosick.MusicService$5: void run()>	Permission:android.permission.WAKE_LOCK
+<com.omesoft.nosick.MusicService: void onDestroy()>	Permission:android.permission.WAKE_LOCK
+<com.wooboo.adlib_android.d: com.wooboo.adlib_android.c f(android.content.Context)>	Permission:android.permission.READ_PHONE_STATE	Permission:android.permission.INTERNET
+<com.omesoft.nosick.MusicService$1: void release()throwsandroid.os.RemoteException>	Permission:android.permission.WAKE_LOCK
+<com.omesoft.nosick.MusicService$1: void stop()throwsandroid.os.RemoteException>	Permission:android.permission.WAKE_LOCK
+<com.omesoft.nosick.MusicService$1: void start()throwsandroid.os.RemoteException>	Permission:android.permission.WAKE_LOCK
+<com.omesoft.nosick.MusicService$3: void onPrepared(android.media.MediaPlayer)>	Permission:android.permission.WAKE_LOCK
+<com.omesoft.nosick.ActivityMain: void onCreate(android.os.Bundle)>	Permission:android.permission.ACCESS_COARSE_LOCATION

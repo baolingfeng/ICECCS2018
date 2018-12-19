@@ -1,0 +1,202 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [
+            "content://com.hedami.musicplayerremix.songplaysprovider/songplays"
+        ], 
+        "others": {
+            "android.os.PowerManager$WakeLock;->release": [
+                "[]"
+            ]
+        }, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->update", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "called_sen_apis": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->update", 
+            "android.os.PowerManager$WakeLock;->release"
+        ]
+    }, 
+    "repack_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "wallpaperUri", 
+            "shufflemode", 
+            "LastComposersCount", 
+            "curpos", 
+            "queue", 
+            "mediaServiceRunning", 
+            "repeatmode", 
+            "useSysWallpaper", 
+            "cardid", 
+            "lastSelectedSortOrder", 
+            "nowPlayingDataSortOrder", 
+            "history"
+        ], 
+        "called_apis": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->insert", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->delete", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.content.ContentResolver;->bulkInsert", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->update", 
+            "android.os.PowerManager$WakeLock;->release", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.content.ContentResolver;->query", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "content://media/external/audio/playlists", 
+            "content://com.hedami.musicplayerremix.songplaysprovider/songplays", 
+            "content://com.hedami.musicplayerremix.nowplayingprovider/nowplaying", 
+            "content://media/external/audio/media", 
+            "content://media/external/fs_id", 
+            "content://com.hedami.musicplayerremix.bookmarksprovider/bookmarks", 
+            "content://com.hedami.musicplayerremix.favesprovider/faves"
+        ], 
+        "broadcast_receivers": [
+            "com.hedami.musicplayerremix.musicservicecommand.previous", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.MEDIA_EJECT", 
+            "android.intent.action.MEDIA_MOUNTED", 
+            "com.hedami.musicplayerremix.musicservicecommand.pause", 
+            "android.intent.action.SCREEN_ON", 
+            "com.hedami.musicplayerremix.albumartchanged", 
+            "com.hedami.musicplayerremix.bookmarkschanged", 
+            "com.android.music.metachanged", 
+            "com.android.music.queuechanged", 
+            "com.hedami.musicplayerremix.musicservicecommand.togglepause", 
+            "android.media.AUDIO_BECOMING_NOISY", 
+            "android.intent.action.SCREEN_OFF", 
+            "com.hedami.musicplayerremix.musicservicecommand.close", 
+            "com.hedami.musicplayerremix.musicservicecommand.next", 
+            "com.hedami.musicplayerremix.musicservicecommand", 
+            "com.android.music.playstatechanged", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "android.app.SharedPreferencesImpl$EditorImpl/apply", 
+            "/values"
+        ], 
+        "others": {
+            "android.os.PowerManager$WakeLock;->acquire": [
+                "[]"
+            ], 
+            "android.media.MediaPlayer;->setWakeMode": [
+                "[\"com.hedami.musicplayerremix.MediaService\", \"1\"]"
+            ], 
+            "android.os.PowerManager$WakeLock;->release": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->delete", 
+            "android.content.ContentResolver;->bulkInsert", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.content.ContentResolver;->query", 
+            "android.os.PowerManager$WakeLock;->release"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "seekpos", 
+            "wallpaperUri", 
+            "shufflemode", 
+            "LastComposersCount", 
+            "curpos", 
+            "queue", 
+            "mediaServiceRunning", 
+            "repeatmode", 
+            "useSysWallpaper", 
+            "cardid", 
+            "lastSelectedSortOrder", 
+            "nowPlayingDataSortOrder", 
+            "history"
+        ], 
+        "called_apis": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->delete", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.content.ContentResolver;->bulkInsert", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.content.ContentResolver;->query", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "content://media/external/audio/playlists", 
+            "content://com.hedami.musicplayerremix.nowplayingprovider/nowplaying", 
+            "content://media/external/audio/media", 
+            "content://media/external/fs_id", 
+            "content://com.hedami.musicplayerremix.bookmarksprovider/bookmarks", 
+            "content://com.hedami.musicplayerremix.favesprovider/faves"
+        ], 
+        "broadcast_receivers": [
+            "com.hedami.musicplayerremix.musicservicecommand.previous", 
+            "android.intent.action.MEDIA_EJECT", 
+            "android.intent.action.MEDIA_MOUNTED", 
+            "com.hedami.musicplayerremix.musicservicecommand.pause", 
+            "android.intent.action.SCREEN_ON", 
+            "android.media.AUDIO_BECOMING_NOISY", 
+            "com.hedami.musicplayerremix.bookmarkschanged", 
+            "com.android.music.metachanged", 
+            "com.android.music.queuechanged", 
+            "com.hedami.musicplayerremix.musicservicecommand.togglepause", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.USER_PRESENT", 
+            "com.hedami.musicplayerremix.musicservicecommand", 
+            "com.hedami.musicplayerremix.albumartchanged", 
+            "android.intent.action.SCREEN_OFF", 
+            "com.hedami.musicplayerremix.musicservicecommand.close", 
+            "com.hedami.musicplayerremix.musicservicecommand.next", 
+            "com.android.music.playstatechanged"
+        ], 
+        "hooked_method": [
+            "android.app.SharedPreferencesImpl$EditorImpl/apply", 
+            "/values"
+        ], 
+        "others": {
+            "android.os.PowerManager$WakeLock;->acquire": [
+                "[]"
+            ], 
+            "android.media.MediaPlayer;->setWakeMode": [
+                "[\"com.hedami.musicplayerremix.MediaService\", \"1\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.media.MediaPlayer;->setWakeMode", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->delete", 
+            "android.content.ContentResolver;->bulkInsert", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->openAssetFileDescriptor", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

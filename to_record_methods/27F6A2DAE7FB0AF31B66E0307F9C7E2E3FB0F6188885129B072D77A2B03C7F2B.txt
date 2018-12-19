@@ -1,0 +1,26 @@
+<com.startapp.android.publish.f.o: boolean a(android.content.Context)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.google.android.gms.maps.model.UrlTileProvider: com.google.android.gms.maps.model.Tile getTile(int,int,int)>	Permission:android.permission.INTERNET
+<com.startapp.android.publish.list3d.List3DActivity$2: void onItemClick(android.widget.AdapterView<?>,android.view.View,int,long)>	Permission:android.permission.INTERNET
+<com.startapp.android.publish.b.c: void l()>	Permission:android.permission.INTERNET
+<com.google.android.gms.internal.cx: boolean onCreateWindow(android.webkit.WebView,boolean,boolean,android.os.Message)>	Permission:android.permission.INTERNET
+<com.google.android.gms.internal.bo: void pause()>	Permission:android.permission.WAKE_LOCK
+<com.startapp.android.publish.c.b: void a(boolean)>	Permission:android.permission.INTERNET
+<com.google.android.gms.internal.bo: void af()>	Permission:android.permission.WAKE_LOCK
+<com.google.android.gms.internal.bo: void play()>	Permission:android.permission.WAKE_LOCK
+<com.xlab.wallpapers.service.BackgroundService$1: void run()>	Permission:android.permission.INTERNET	Permission:android.permission.SET_WALLPAPER
+<com.startapp.android.publish.AppWallDelegateActivity: void onCreate(android.os.Bundle)>	Permission:android.permission.INTERNET
+<com.startapp.android.publish.slider.b$2:  com.startapp.android.publish.slider.b$2(com.startapp.android.publish.slider.b,android.content.Context)>	Permission:android.permission.INTERNET
+<com.google.android.gms.auth.GoogleAuthUtil: void invalidateToken(android.content.Context,java.lang.String)>	Permission:android.permission.MANAGE_ACCOUNTS
+<com.startapp.android.publish.f.i: java.lang.String a(android.content.Context)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.startapp.android.publish.f.o: void a(android.content.Context,java.lang.String,int,java.lang.Runnable)>	Permission:android.permission.INTERNET
+<com.google.android.gms.internal.bo: void destroy()>	Permission:android.permission.WAKE_LOCK
+<com.google.android.gms.internal.ce: com.google.android.gms.internal.cb a(android.content.Context,java.lang.String,java.lang.String)>	Permission:android.permission.INTERNET
+<com.xlab.wallpapers.ui.ImageDetailActivity$2: void run()>	Permission:android.permission.INTERNET
+<com.startapp.android.publish.f.e: android.graphics.Bitmap a(java.lang.String)>	Permission:android.permission.INTERNET
+<com.xlab.wallpapers.util.ImageFetcher: boolean downloadUrlToStream(java.lang.String,java.io.OutputStream)>	Permission:android.permission.INTERNET
+<com.startapp.android.publish.f.i: java.lang.String b(android.content.Context)>	Permission:android.permission.ACCESS_NETWORK_STATE	Permission:android.permission.ACCESS_WIFI_STATE
+<com.google.ads.mediation.jsadapter.JavascriptAdapter: void requestBannerAd(com.google.ads.mediation.MediationBannerListener,android.app.Activity,com.google.ads.mediation.jsadapter.JavascriptServerParameters,com.google.ads.AdSize,com.google.ads.mediation.MediationAdRequest,com.google.ads.mediation.EmptyNetworkExtras)>	Permission:android.permission.INTERNET
+<com.google.android.gms.internal.cq: void ai()>	Permission:android.permission.INTERNET
+<com.startapp.android.publish.adinformation.b: void onClick(android.view.View)>	Permission:android.permission.INTERNET
+<com.startapp.android.publish.Ad: boolean load(com.startapp.android.publish.model.AdPreferences,com.startapp.android.publish.AdEventListener,boolean)>	Permission:android.permission.INTERNET
+<com.xlab.wallpapers.ui.ImageDetailActivity$1: void run()>	Permission:android.permission.INTERNET	Permission:android.permission.SET_WALLPAPER

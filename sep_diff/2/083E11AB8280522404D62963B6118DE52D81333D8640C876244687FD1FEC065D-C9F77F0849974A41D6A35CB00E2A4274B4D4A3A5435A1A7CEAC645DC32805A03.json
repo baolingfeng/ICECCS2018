@@ -1,0 +1,77 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "content_resolvers": [
+            "content://settings/system"
+        ], 
+        "shared_preferences": [
+            "invert_tabs", 
+            "language", 
+            "refresh_rate", 
+            "pull_captcha", 
+            "ssl_validate", 
+            "ssl", 
+            "eula.accepted", 
+            "port"
+        ], 
+        "urls": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [
+            "org.pyload.android.client.AddLinksActivity/pickFile", 
+            "org.pyload.android.client.AddLinksActivity/addPackage", 
+            "/values", 
+            "org.pyload.android.client.AddLinksActivity/onCancel"
+        ], 
+        "called_apis": [
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "org.pyload.android.client.pyLoadApp;->e", 
+            "java.lang.reflect.Method;->invoke"
+        ], 
+        "called_sen_apis": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "origin_res": {
+        "content_resolvers": [
+            "content://settings/system"
+        ], 
+        "shared_preferences": [
+            "invert_tabs", 
+            "language", 
+            "refresh_rate", 
+            "pull_captcha", 
+            "ssl_validate", 
+            "ssl", 
+            "eula.accepted", 
+            "port"
+        ], 
+        "urls": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [
+            "org.pyload.android.client.AddLinksActivity/pickFile", 
+            "org.pyload.android.client.AddLinksActivity/addPackage", 
+            "/values", 
+            "org.pyload.android.client.AddLinksActivity/onCancel"
+        ], 
+        "called_apis": [
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "org.pyload.android.client.pyLoadApp;->e", 
+            "java.lang.reflect.Method;->invoke"
+        ], 
+        "called_sen_apis": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }
+}

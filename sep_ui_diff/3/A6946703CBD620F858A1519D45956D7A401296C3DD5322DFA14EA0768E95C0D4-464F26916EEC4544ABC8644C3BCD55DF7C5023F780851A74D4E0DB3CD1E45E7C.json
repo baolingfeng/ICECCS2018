@@ -1,0 +1,136 @@
+{
+    "origin": {
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_add_camera": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_search": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "document_list": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.widget.ImageButton": [
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->delete", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_share": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/button1": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->update", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/search_src_text": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "button_next": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/progress": [
+            "android.content.ContentResolver;->delete"
+        ], 
+        "menu_add_gallery": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "document_list_starred": [
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/message": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.widget.FrameLayout": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.widget.RelativeLayout": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/button2": [
+            "android.content.ContentResolver;->insert", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/title": [
+            "android.content.ContentResolver;->delete"
+        ], 
+        "button_multiple_done": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "diff": {
+        "android:id/text1": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/title": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "action_cancel": [
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "repack": {
+        "menu_add_camera": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/text1": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/button1": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "action_cancel": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "button_next": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/search_src_text": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_add_gallery": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/button2": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/title": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

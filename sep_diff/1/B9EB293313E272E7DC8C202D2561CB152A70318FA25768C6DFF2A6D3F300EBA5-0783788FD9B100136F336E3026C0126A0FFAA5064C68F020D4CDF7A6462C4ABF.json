@@ -1,0 +1,107 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [
+            "setting_clear_all_on_open", 
+            "setting_exit_after_clear_all", 
+            "setting_auto_clear_time", 
+            "setting_auto_startup", 
+            "setting_show_notification", 
+            "setting_remind_require_type", 
+            "setting_hide_system_min_cache_size", 
+            "widget_setting_one_tap_clear"
+        ], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "show_setting_hide_system_min_cache_size", 
+            "setting_clear_all_on_open", 
+            "setting_default_sort_type", 
+            "setting_exit_after_clear_all", 
+            "setting_auto_clear_time", 
+            "setting_auto_startup", 
+            "setting_i_am_alive", 
+            "setting_remind_time_type", 
+            "pNameList", 
+            "setting_show_notification", 
+            "setting_remind_require_type", 
+            "setting_hide_system_min_cache_size", 
+            "widget_setting_one_tap_clear", 
+            "eula.accepted"
+        ], 
+        "called_apis": [
+            "android.app.ActivityThread;->handleReceiver", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [
+            "ClearAllCacheByServiceDone", 
+            "android.intent.action.PACKAGE_ADDED", 
+            "android.intent.action.PACKAGE_REMOVED"
+        ], 
+        "hooked_method": [
+            "mobi.infolife.cachepro.SetRemindLevelStorageDialogActivity/okRequire", 
+            "com.android.internal.app.ActionBarImpl/setHomeActionContentDescription", 
+            "android.app.ApplicationPackageManager/freeStorageAndNotify", 
+            "com.android.internal.app.ActionBarImpl/setHomeAsUpIndicator", 
+            "android.app.ApplicationPackageManager/getPackageSizeInfo", 
+            "mobi.infolife.cachepro.SetRemindLevelStorageDialogActivity/cancelRequire"
+        ], 
+        "others": {
+            "android.app.ActivityThread;->handleReceiver": [
+                "[\"ReceiverData{intent=Intent { act=AlarmThresholdClean flg=0x14 cmp=mobi.infolife.cachepro/.AlarmReceive (has extras) } packageName=mobi.infolife.cachepro resultCode=0 resultData=null resultExtras=null}\"]"
+            ]
+        }, 
+        "called_sen_apis": []
+    }, 
+    "origin_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "show_setting_hide_system_min_cache_size", 
+            "setting_default_sort_type", 
+            "setting_i_am_alive", 
+            "setting_remind_time_type", 
+            "pNameList", 
+            "eula.accepted"
+        ], 
+        "called_apis": [
+            "android.app.ActivityThread;->handleReceiver", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [
+            "ClearAllCacheByServiceDone", 
+            "android.intent.action.PACKAGE_ADDED", 
+            "android.intent.action.PACKAGE_REMOVED"
+        ], 
+        "hooked_method": [
+            "mobi.infolife.cachepro.SetRemindLevelStorageDialogActivity/okRequire", 
+            "com.android.internal.app.ActionBarImpl/setHomeActionContentDescription", 
+            "android.app.ApplicationPackageManager/freeStorageAndNotify", 
+            "com.android.internal.app.ActionBarImpl/setHomeAsUpIndicator", 
+            "android.app.ApplicationPackageManager/getPackageSizeInfo", 
+            "mobi.infolife.cachepro.SetRemindLevelStorageDialogActivity/cancelRequire"
+        ], 
+        "others": {
+            "android.app.ActivityThread;->handleReceiver": [
+                "[\"ReceiverData{intent=Intent { act=AlarmThresholdClean flg=0x14 cmp=mobi.infolife.cachepro/.AlarmReceive (has extras) } packageName=mobi.infolife.cachepro resultCode=0 resultData=null resultExtras=null}\"]"
+            ]
+        }, 
+        "called_sen_apis": []
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "origin": {
+        "gridView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.TextView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "app_thumbnail": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.ImageView": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/button1": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.ImageButton": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.FrameLayout": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.ProgressBar": [
+            "java.net.URL;->openConnection"
+        ], 
+        "image_grid_menu_button_more_games": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/action_bar_title": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/home": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "set_wallpaper": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/message": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "imageView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "save_sd": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/title": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/up": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.LinearLayout": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "diff": {}, 
+    "repack": {}
+}

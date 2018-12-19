@@ -1,0 +1,26 @@
+{
+    "origin": {
+        "android:id/list": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.LinearLayout": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "diff": {
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "repack": {
+        "android:id/list": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.LinearLayout": [
+            "java.net.URL;->openConnection"
+        ]
+    }
+}

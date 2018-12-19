@@ -1,0 +1,4 @@
+<com.admob.android.ads.AdManager: java.lang.String getUserId(android.content.Context)>	Permission:android.permission.READ_PHONE_STATE
+<com.admob.android.ads.AdRequester: com.admob.android.ads.Ad requestAd(android.content.Context,java.lang.String,java.lang.String)>	Permission:android.permission.INTERNET
+<com.admob.android.ads.AdManager: android.location.Location getCoordinates(android.content.Context)>	Permission:android.permission.ACCESS_FINE_LOCATION
+<com.dseffects.VirtualDog.dsGap: void vibrate(long)>	Permission:android.permission.WAKE_LOCK

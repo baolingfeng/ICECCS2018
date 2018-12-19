@@ -1,0 +1,65 @@
+{
+    "origin": {
+        "ButtonLoad": [
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "ButtonPlayPause": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "android:id/button1": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "BACK": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "ButtonStop": [
+            "java.net.URL;->openConnection", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "ButtonRecord": [
+            "android.os.PowerManager$WakeLock;->acquire"
+        ], 
+        "ListView91": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection"
+        ], 
+        "ButtonMinusOne": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "diff": {
+        "android:id/message": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection", 
+            "android.os.PowerManager$WakeLock;->release"
+        ]
+    }, 
+    "repack": {
+        "android:id/message": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "ListView91": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/button1": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "BACK": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "ButtonRecord": [
+            "android.os.PowerManager$WakeLock;->acquire"
+        ]
+    }
+}

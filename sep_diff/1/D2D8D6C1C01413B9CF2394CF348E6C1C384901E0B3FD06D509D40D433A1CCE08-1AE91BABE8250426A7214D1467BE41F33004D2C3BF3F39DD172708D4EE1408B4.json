@@ -1,0 +1,78 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "jar:file:/data/app/com.poosdfterman.depart_jas-1.apk!/res/raw/snd.inf", 
+            "app-config.oss-cn-beijing.aliyuncs.com", 
+            "jiushini.oss-cn-hangzhou.aliyuncs.com", 
+            "file:/data/app/com.poosdfterman.depart_jas-1.apk"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "java.net.URL;->openConnection", 
+            "java.lang.reflect.Method;->invoke"
+        ], 
+        "content_resolvers": [
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.BATTERY_CHANGED", 
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "jar:file:/data/app/com.poosdfterman.depart_jas-1.apk!/res/raw/snd.inf", 
+            "app-config.oss-cn-beijing.aliyuncs.com", 
+            "jiushini.oss-cn-hangzhou.aliyuncs.com", 
+            "file:/data/app/com.poosdfterman.depart_jas-1.apk"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "java.net.URL;->openConnection", 
+            "java.lang.reflect.Method;->invoke"
+        ], 
+        "content_resolvers": [
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.BATTERY_CHANGED", 
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }
+}

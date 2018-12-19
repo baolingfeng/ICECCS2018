@@ -1,0 +1,323 @@
+{
+    "origin": {
+        "search_button_container": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "img_location": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/home": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.ImageView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell4": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_brightness": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/action_bar_title": [
+            "java.net.URL;->openConnection"
+        ], 
+        "img_brightness": [
+            "java.net.URL;->openConnection"
+        ], 
+        "dock_divider": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "save_sd": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_location": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/title": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "gridView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.TextView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell1": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.ImageButton": [
+            "java.net.URL;->openConnection"
+        ], 
+        "cell2": [
+            "java.net.URL;->openConnection"
+        ], 
+        "cell5": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.ProgressBar": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ind_brightness": [
+            "java.net.URL;->openConnection"
+        ], 
+        "set_wallpaper": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "img_wifi": [
+            "java.net.URL;->openConnection"
+        ], 
+        "imageView": [
+            "java.net.URL;->openConnection"
+        ], 
+        "img_bluetooth": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ind_wifi": [
+            "java.net.URL;->openConnection"
+        ], 
+        "btn_bluetooth": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ind_sync": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/button1": [
+            "java.net.URL;->openConnection"
+        ], 
+        "image_grid_menu_button_more_games": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "search_button": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/up": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.view.View": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.appwidget.AppWidgetHostView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.LinearLayout": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "analog_appwidget": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ind_location": [
+            "java.net.URL;->openConnection"
+        ], 
+        "btn_wifi": [
+            "java.net.URL;->openConnection"
+        ], 
+        "workspace": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell3": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "diff": {
+        "cell1": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell2": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/button1": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_sync": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/message": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ind_bluetooth": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.view.View": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "info_target_text": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "repack": {
+        "search_button_container": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "img_location": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/home": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.ImageView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.appwidget.AppWidgetHostView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_brightness": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/action_bar_title": [
+            "java.net.URL;->openConnection"
+        ], 
+        "dock_divider": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "save_sd": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/title": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "gridView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.TextView": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell1": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.ImageButton": [
+            "java.net.URL;->openConnection"
+        ], 
+        "cell2": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell5": [
+            "java.net.URL;->openConnection"
+        ], 
+        "cell4": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ind_brightness": [
+            "java.net.URL;->openConnection"
+        ], 
+        "imageView": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ind_wifi": [
+            "java.net.URL;->openConnection"
+        ], 
+        "btn_bluetooth": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ind_sync": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/button1": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "image_grid_menu_button_more_games": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "search_button": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/up": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_sync": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.view.View": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "info_target_text": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.LinearLayout": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "analog_appwidget": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ind_location": [
+            "java.net.URL;->openConnection"
+        ], 
+        "btn_wifi": [
+            "java.net.URL;->openConnection"
+        ], 
+        "workspace": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/message": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ind_bluetooth": [
+            "java.net.URL;->openConnection"
+        ], 
+        "cell3": [
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }
+}

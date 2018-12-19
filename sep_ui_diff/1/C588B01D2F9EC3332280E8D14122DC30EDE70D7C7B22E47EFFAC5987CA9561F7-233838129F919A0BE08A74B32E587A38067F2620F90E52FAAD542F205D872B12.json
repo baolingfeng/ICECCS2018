@@ -1,0 +1,187 @@
+{
+    "origin": {
+        "img_location": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ind_sync": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell4": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.ImageView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell1": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell3": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell2": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell5": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.appwidget.AppWidgetHostView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_wifi": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "img_sync": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "search_button": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "img_brightness": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ind_brightness": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_sync": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "img_wifi": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.view.View": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ind_location": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_location": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "diff": {
+        "search_button_container": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_bluetooth": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.TextView": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell5": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.appwidget.AppWidgetHostView": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "ind_wifi": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "workspace": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "dock_divider": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ind_bluetooth": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_location": [
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "repack": {
+        "search_button_container": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.ImageView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.appwidget.AppWidgetHostView": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "dock_divider": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_location": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell1": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell3": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell2": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "cell5": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell4": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "img_sync": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ind_brightness": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "img_wifi": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ind_wifi": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_bluetooth": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ind_sync": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "search_button": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_sync": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.view.View": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ind_location": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_wifi": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "workspace": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ind_bluetooth": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }
+}

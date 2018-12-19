@@ -1,0 +1,38 @@
+{
+    "origin": {
+        "android.widget.TextView": [
+            "android.webkit.WebView;->loadDataWithBaseURL"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "diff": {
+        "browser_item_size": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "browser_list": [
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "repack": {
+        "android.widget.LinearLayout": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "browser_list": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.widget.TextView": [
+            "android.webkit.WebView;->loadDataWithBaseURL"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "browser_item_size": [
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

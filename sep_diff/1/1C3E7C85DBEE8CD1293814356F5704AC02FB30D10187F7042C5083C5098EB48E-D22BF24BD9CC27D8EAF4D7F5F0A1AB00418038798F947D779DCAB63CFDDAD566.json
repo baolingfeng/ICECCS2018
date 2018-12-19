@@ -1,0 +1,128 @@
+{
+    "diff": {
+        "urls": [
+            "file:///android_asset/tutorial/en./html"
+        ], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getTranslationX"
+        ], 
+        "called_apis": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "repack_res": {
+        "urls": [
+            "file:///android_asset/tutorial/en./html", 
+            "media.admob.com"
+        ], 
+        "shared_preferences": [
+            "andrei.brusentcov.lnguagepazzle.data.GameInfo", 
+            "drt_ts", 
+            "drt"
+        ], 
+        "called_apis": [
+            "com.google.analytics.tracking.android.SimpleNetworkDispatcher;->okToDispatch", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "com.google.ads.util.AdUtil;->d", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "content_resolvers": [
+            "content://com.google.plus.platform/token", 
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getTranslationX", 
+            "/getLong", 
+            "/a", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "com.google.analytics.tracking.android.SimpleNetworkDispatcher;->okToDispatch": [
+                "[]"
+            ], 
+            "com.google.ads.util.AdUtil;->d": [
+                "[\"andrei.brusentcov.lnguagepazzle.en.ApplcationWithAnalytics\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "media.admob.com"
+        ], 
+        "shared_preferences": [
+            "andrei.brusentcov.lnguagepazzle.data.GameInfo", 
+            "drt_ts", 
+            "drt"
+        ], 
+        "called_apis": [
+            "com.google.analytics.tracking.android.SimpleNetworkDispatcher;->okToDispatch", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "com.google.ads.util.AdUtil;->d", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "content_resolvers": [
+            "content://com.google.plus.platform/token", 
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.USER_PRESENT", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/a", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "com.google.analytics.tracking.android.SimpleNetworkDispatcher;->okToDispatch": [
+                "[]"
+            ], 
+            "com.google.ads.util.AdUtil;->d": [
+                "[\"andrei.brusentcov.lnguagepazzle.en.ApplcationWithAnalytics\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

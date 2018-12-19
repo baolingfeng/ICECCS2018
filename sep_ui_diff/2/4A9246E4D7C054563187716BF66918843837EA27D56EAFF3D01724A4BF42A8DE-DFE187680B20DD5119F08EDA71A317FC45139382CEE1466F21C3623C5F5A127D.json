@@ -1,0 +1,182 @@
+{
+    "origin": {
+        "android.widget.ImageView": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "embedded_text_editor": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "BACK": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "tryPro": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/alertTitle": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "BubbleImage": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "upgweb": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.ImageButton": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.ProgressBar": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "start": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/webviewchromium_select_action_menu_web_search": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "more": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "donotshow": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "ScrollView01": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "mainnewgame": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/button1": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "undo": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.view.View": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "recipients_editor": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.webkit.WebView": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/webviewchromium_select_action_menu_copy": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/message": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.RelativeLayout": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/titleDivider": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/title": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "history": [
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "diff": {
+        "android.widget.TextView": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "admogo_layout": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "undo": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/action_bar_title": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "board": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "burstbutton": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "BubbleImage": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ]
+    }, 
+    "repack": {
+        "android.widget.TextView": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "start": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/button1": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "mainnewgame": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "admogo_layout": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "embedded_text_editor": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.widget.RelativeLayout": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "undo": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/action_bar_title": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "tryPro": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/alertTitle": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "board": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/webviewchromium_select_action_menu_web_search": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "burstbutton": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "BubbleImage": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.view.View": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ]
+    }
+}

@@ -1,0 +1,96 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "media.admob.com"
+        ], 
+        "shared_preferences": [
+            "drt_ts", 
+            "drt", 
+            "history"
+        ], 
+        "called_apis": [
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "content_resolvers": [
+            "content://com.google.plus.platform/token", 
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/values", 
+            "/a", 
+            "/addChangeCallback"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "media.admob.com"
+        ], 
+        "shared_preferences": [
+            "drt_ts", 
+            "drt", 
+            "history"
+        ], 
+        "called_apis": [
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "content_resolvers": [
+            "content://com.google.plus.platform/token", 
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/values", 
+            "/a", 
+            "/addChangeCallback"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

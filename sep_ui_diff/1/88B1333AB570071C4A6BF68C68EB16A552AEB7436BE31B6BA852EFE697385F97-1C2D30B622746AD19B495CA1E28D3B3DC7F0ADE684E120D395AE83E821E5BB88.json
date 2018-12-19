@@ -1,0 +1,45 @@
+{
+    "origin": {
+        "android.view.View": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "admoblayout": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "tutorialView": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "diff": {
+        "BACK": [
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ]
+    }, 
+    "repack": {
+        "android.view.View": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "BACK": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "admoblayout": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

@@ -1,0 +1,148 @@
+{
+    "diff": {
+        "urls": [
+            "file:/data/app/com.frasesvida.frasesvida-1.apk", 
+            "googleads.g.doubleclick.net", 
+            "jar:file:/data/app/com.frasesvida.frasesvida-1.apk!/startapp.properties"
+        ], 
+        "shared_preferences": [], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "NOT CACHED"
+        ], 
+        "others": {}, 
+        "broadcast_receivers": [
+            "android.intent.action.SCREEN_OFF", 
+            "android.intent.action.USER_PRESENT", 
+            "android.security.STORAGE_CHANGED"
+        ], 
+        "hooked_method": [
+            "/a"
+        ], 
+        "called_apis": [
+            "android.content.ContentResolver;->insert", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "called_sen_apis": [
+            "android.content.ContentResolver;->insert", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "repack_res": {
+        "urls": [
+            "file:/data/app/com.frasesvida.frasesvida-1.apk", 
+            "www.startappexchange.com", 
+            "googleads.g.doubleclick.net", 
+            "jar:file:/data/app/com.frasesvida.frasesvida-1.apk!/startapp.properties"
+        ], 
+        "shared_preferences": [
+            "shared_prefs_sdk_ad_prefs", 
+            "shared_prefs_simple_token", 
+            "User-Agent", 
+            "shared_prefs_first_init", 
+            "shared_prefs_devId", 
+            "shared_prefs_appId"
+        ], 
+        "called_apis": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->insert", 
+            "java.net.URL;->openConnection", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "NOT CACHED", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.security.STORAGE_CHANGED", 
+            "com.google.analytics.RADIO_POWERED", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "android.telephony.SignalStrength/getLevel", 
+            "/a", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->listen": [
+                "[\"com.startapp.android.publish.f.h$1\", \"256\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.content.ContentResolver;->insert", 
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "www.startappexchange.com", 
+            "file:/data/app/com.argentina.argentina-1.apk", 
+            "jar:file:/data/app/com.argentina.argentina-1.apk!/startapp.properties"
+        ], 
+        "shared_preferences": [
+            "shared_prefs_sdk_ad_prefs", 
+            "shared_prefs_simple_token", 
+            "User-Agent", 
+            "shared_prefs_first_init", 
+            "shared_prefs_devId", 
+            "shared_prefs_appId"
+        ], 
+        "called_apis": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "java.net.URL;->openConnection", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean"
+        ], 
+        "content_resolvers": [
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "com.google.analytics.RADIO_POWERED", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "android.telephony.SignalStrength/getLevel", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->listen": [
+                "[\"com.startapp.android.publish.f.h$1\", \"256\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->listen", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "diff": {
+        "urls": [
+            "<html><head><script src=\"http://127.0.0.1\"></scrip"
+        ], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "<html><head><script src=\"http://127.0.0.1\"></scrip", 
+            "www.google.com"
+        ], 
+        "shared_preferences": [
+            "date_firstlaunch", 
+            "color", 
+            "launch_count", 
+            "font", 
+            "weatherEnabled", 
+            "scale", 
+            "ampmColor", 
+            "dateColor", 
+            "shadowColor", 
+            "weatherUnit", 
+            "lastVersion", 
+            "opacity", 
+            "weatherUpdateRate", 
+            "dateformat", 
+            "date", 
+            "shadow", 
+            "weatherColor", 
+            "rotate", 
+            "ampm", 
+            "clickAppEnabled", 
+            "2412", 
+            "weatherLocation", 
+            "strokemode"
+        ], 
+        "called_apis": [
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "java.net.URL;->openConnection", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.USER_PRESENT", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "java.net.URL;->openConnection", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "<html><head><script src=\"http://media.admob.com/sd", 
+            "www.google.com"
+        ], 
+        "shared_preferences": [
+            "date_firstlaunch", 
+            "color", 
+            "launch_count", 
+            "font", 
+            "weatherEnabled", 
+            "scale", 
+            "ampmColor", 
+            "dateColor", 
+            "shadowColor", 
+            "clickApp", 
+            "weatherUnit", 
+            "lastVersion", 
+            "opacity", 
+            "weatherUpdateRate", 
+            "dateformat", 
+            "date", 
+            "shadow", 
+            "weatherColor", 
+            "rotate", 
+            "ampm", 
+            "clickAppEnabled", 
+            "2412", 
+            "weatherLocation", 
+            "strokemode"
+        ], 
+        "called_apis": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "java.lang.reflect.Method;->invoke", 
+            "java.net.URL;->openConnection", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "java.net.URL;->openConnection"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+<android.support.v4.net.ConnectivityManagerCompat$BaseConnectivityManagerCompatImpl: boolean isActiveNetworkMetered(android.net.ConnectivityManager)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.google.ads.internal.a: void b()>	Permission:android.permission.WAKE_LOCK
+<com.inmobi.androidsdk.impl.IMNiceInfo$1: void onReceive(android.content.Context,android.content.Intent)>	Permission:android.permission.ACCESS_WIFI_STATE
+<com.inmobi.androidsdk.ai.container.IMWebView$8$2: boolean onKey(android.view.View,int,android.view.KeyEvent)>	Permission:android.permission.WAKE_LOCK
+<com.google.ads.internal.a: void e()>	Permission:android.permission.WAKE_LOCK
+<android.support.v4.net.ConnectivityManagerCompatGingerbread: boolean isActiveNetworkMetered(android.net.ConnectivityManager)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.inmobi.androidsdk.impl.IMNiceInfo: java.lang.String getCellInfo()>	Permission:android.permission.ACCESS_FINE_LOCATION
+<com.adwhirl.AdWhirlManager: android.location.Location getLocation()>	Permission:android.permission.ACCESS_FINE_LOCATION
+<com.google.ads.internal.c: public com.google.ads.internal.c(com.google.ads.as,com.google.ads.g)>	Permission:android.permission.INTERNET
+<android.support.v4.content.WakefulBroadcastReceiver: boolean completeWakefulIntent(android.content.Intent)>	Permission:android.permission.WAKE_LOCK
+<com.inmobi.androidsdk.ai.container.IMWebView: public com.inmobi.androidsdk.ai.container.IMWebView(android.content.Context,android.util.AttributeSet)>	Permission:android.permission.INTERNET
+<com.inmobi.commons.internal.IMLocationMonitor: void startListening(android.content.Context)>	Permission:android.permission.ACCESS_FINE_LOCATION
+<mobi.infolife.common.sherlock.FeaturedAppsActivity: void onCreate(android.os.Bundle)>	Permission:android.permission.ACCESS_WIFI_STATE	Permission:android.permission.INTERNET
+<com.inmobi.commons.internal.InternalSDKUtil: java.lang.String getUserAgent(android.content.Context)>	Permission:android.permission.INTERNET
+<com.aduwant.ads.sdk.FeatureListActivity: void onCreate(android.os.Bundle)>	Permission:android.permission.ACCESS_NETWORK_STATE	Permission:android.permission.ACCESS_WIFI_STATE	Permission:android.permission.INTERNET
+<com.google.ads.n: void run()>	Permission:android.permission.INTERNET
+<android.support.v4.content.WakefulBroadcastReceiver: android.content.ComponentName startWakefulService(android.content.Context,android.content.Intent)>	Permission:android.permission.WAKE_LOCK
+<android.support.v4.net.ConnectivityManagerCompat: android.net.NetworkInfo getNetworkInfoFromBroadcast(android.net.ConnectivityManager,android.content.Intent)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<mobi.infolife.common.sherlock.LicenseActivity: void onCreate(android.os.Bundle)>	Permission:android.permission.INTERNET
+<com.inmobi.androidsdk.ai.container.IMWebView: public com.inmobi.androidsdk.ai.container.IMWebView(android.content.Context,com.inmobi.androidsdk.ai.container.IMWebView$IMWebViewListener,boolean,boolean)>	Permission:android.permission.INTERNET
+<com.inmobi.androidsdk.ai.container.IMWebView$8: void onShowCustomView(android.view.View,android.webkit.WebChromeClient$CustomViewCallback)>	Permission:android.permission.WAKE_LOCK
+<mobi.infolife.cachepro.bb: void b(android.content.Context)>	Permission:android.permission.VIBRATE
+<android.support.v4.net.ConnectivityManagerCompatJellyBean: boolean isActiveNetworkMetered(android.net.ConnectivityManager)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.google.ads.util.AdUtil: java.lang.String i(android.content.Context)>	Permission:android.permission.INTERNET
+<mobi.infolife.cachepro.ClearService: void a(long)>	Permission:android.permission.VIBRATE
+<com.aduwant.ads.sdk.RecommendAppActivity: java.lang.String formatClickUrl(android.content.Context,int,int,java.lang.String,java.lang.String,java.lang.String)>	Permission:android.permission.ACCESS_NETWORK_STATE	Permission:android.permission.ACCESS_WIFI_STATE
+<com.inmobi.androidsdk.ai.controller.JSUtilityController$2: void run()>	Permission:android.permission.INTERNET
+<com.inmobi.androidsdk.ai.controller.util.IMAVPlayer: void pause()>	Permission:android.permission.WAKE_LOCK
+<com.inmobi.androidsdk.ai.container.IMWebView: public com.inmobi.androidsdk.ai.container.IMWebView(android.content.Context,com.inmobi.androidsdk.ai.container.IMWebView$IMWebViewListener)>	Permission:android.permission.INTERNET
+<com.inmobi.commons.internal.InternalSDKUtil: java.lang.String getConnectivityType(android.content.Context)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.google.ads.internal.v: java.net.HttpURLConnection a(java.net.URL)>	Permission:android.permission.INTERNET
+<com.inmobi.commons.internal.InternalSDKUtil: boolean checkNetworkAvailibility(android.content.Context)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.aduwant.ads.sdk.DataCollector: java.lang.String formatImpressionUrl(android.content.Context,int,int,java.lang.String)>	Permission:android.permission.ACCESS_NETWORK_STATE	Permission:android.permission.ACCESS_WIFI_STATE
+<mobi.infolife.common.sherlock.TranslateActivity: void onCreate(android.os.Bundle)>	Permission:android.permission.INTERNET
+<com.google.ads.internal.a: void c()>	Permission:android.permission.WAKE_LOCK
+<com.google.ads.util.AdUtil: java.lang.String d(android.content.Context)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.google.ads.internal.a: void d()>	Permission:android.permission.WAKE_LOCK
+<com.inmobi.androidsdk.ai.controller.util.IMAVPlayer: void start()>	Permission:android.permission.WAKE_LOCK
+<com.inmobi.androidsdk.ai.container.IMWebView$9: void onCompletion(android.media.MediaPlayer)>	Permission:android.permission.WAKE_LOCK
+<com.google.ads.n: java.net.HttpURLConnection a(java.net.URL)>	Permission:android.permission.INTERNET
+<com.inmobi.androidsdk.impl.IMNiceInfo: void scanWifiAP()>	Permission:android.permission.ACCESS_WIFI_STATE	Permission:android.permission.CHANGE_WIFI_STATE
+<android.support.v4.net.ConnectivityManagerCompatHoneycombMR2: boolean isActiveNetworkMetered(android.net.ConnectivityManager)>	Permission:android.permission.ACCESS_NETWORK_STATE

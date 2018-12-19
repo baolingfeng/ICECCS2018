@@ -1,0 +1,128 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [
+            "appAuth", 
+            "SWARM_APP_CONFIGv2", 
+            "pending_apis_-1", 
+            "groupsNeedSaved", 
+            "globalInitFinished", 
+            "pushEnabled", 
+            "clientId", 
+            "groups", 
+            "appId", 
+            "SWARM_USER_CONFIGv2u-1"
+        ], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [
+            "com.swarmconnect.CUSTOM_PUSH_RECEIVED", 
+            "android.net.conn.CONNECTIVITY_CHANGE"
+        ], 
+        "hooked_method": [
+            "android.app.SharedPreferencesImpl$EditorImpl/apply"
+        ], 
+        "called_apis": [
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "media.admob.com"
+        ], 
+        "shared_preferences": [
+            "appAuth", 
+            "SWARM_APP_CONFIGv2", 
+            "globalInitFinished", 
+            "groupsNeedSaved", 
+            "pending_apis_-1", 
+            "pushEnabled", 
+            "drt", 
+            "clientId", 
+            "drt_ts", 
+            "groups", 
+            "appId", 
+            "SWARM_USER_CONFIGv2u-1"
+        ], 
+        "called_apis": [
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "content://com.google.plus.platform/token", 
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.intent.action.PROXY_CHANGE", 
+            "com.swarmconnect.CUSTOM_PUSH_RECEIVED", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "android.app.SharedPreferencesImpl$EditorImpl/apply", 
+            "/getLong", 
+            "/a", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "media.admob.com"
+        ], 
+        "shared_preferences": [
+            "drt_ts", 
+            "drt"
+        ], 
+        "called_apis": [
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "content_resolvers": [
+            "content://com.google.plus.platform/token", 
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.USER_PRESENT", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/a", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

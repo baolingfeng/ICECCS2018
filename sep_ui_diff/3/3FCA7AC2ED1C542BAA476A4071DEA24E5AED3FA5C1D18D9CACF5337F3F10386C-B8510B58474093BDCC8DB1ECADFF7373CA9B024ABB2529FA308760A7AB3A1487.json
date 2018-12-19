@@ -1,0 +1,121 @@
+{
+    "origin": {
+        "ButtonPlayPause": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "android:id/button1": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "BACK": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection"
+        ], 
+        "ButtonStop": [
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "android:id/button2": [
+            "java.net.URL;->openConnection"
+        ], 
+        "LinearLayout01": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ButtonRecord": [
+            "android.os.PowerManager$WakeLock;->acquire"
+        ], 
+        "android:id/message": [
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "ListView91": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "diff": {
+        "ButtonPlus100": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ButtonLoad": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ad": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ButtonPlayPause": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ButtonMinus100": [
+            "java.net.URL;->openConnection"
+        ], 
+        "BACK": [
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "ButtonStop": [
+            "java.net.URL;->openConnection"
+        ], 
+        "SeekBar01": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ButtonPlusOne": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ButtonRecord": [
+            "java.net.URL;->openConnection"
+        ], 
+        "TextViewStatus": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ButtonMinusOne": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "repack": {
+        "ButtonPlus100": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ButtonLoad": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ad": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ButtonPlayPause": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "ButtonMinus100": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android:id/button1": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection"
+        ], 
+        "BACK": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "ButtonStop": [
+            "java.net.URL;->openConnection", 
+            "android.os.PowerManager$WakeLock;->release"
+        ], 
+        "SeekBar01": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ButtonPlusOne": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ButtonRecord": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection"
+        ], 
+        "TextViewStatus": [
+            "java.net.URL;->openConnection"
+        ], 
+        "ButtonMinusOne": [
+            "java.net.URL;->openConnection"
+        ]
+    }
+}

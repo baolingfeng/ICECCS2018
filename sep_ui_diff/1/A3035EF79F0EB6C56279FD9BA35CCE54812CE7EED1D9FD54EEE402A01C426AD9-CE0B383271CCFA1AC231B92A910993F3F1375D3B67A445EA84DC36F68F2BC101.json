@@ -1,0 +1,19 @@
+{
+    "origin": {}, 
+    "diff": {
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.ImageView": [
+            "android.webkit.WebView;->loadDataWithBaseURL"
+        ]
+    }, 
+    "repack": {
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.ImageView": [
+            "android.webkit.WebView;->loadDataWithBaseURL"
+        ]
+    }
+}

@@ -1,0 +1,463 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [
+            "day", 
+            "hour"
+        ], 
+        "content_resolvers": [
+            "content://call_log/calls", 
+            "content://sms"
+        ], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "file:///android_asset/html/PrivacyPolicy.html", 
+            "file:///android_asset/html/paypal.htm"
+        ], 
+        "shared_preferences": [
+            "pre_key_web_financial_protect_number", 
+            "pre_key_web_account_protect_number", 
+            "pre_key_vulnerability_scan_status", 
+            "uninstalled_app", 
+            "pre_key_vulnerability_count", 
+            "last_db_update_success_time", 
+            "preferences_uninstall_lock", 
+            "checkup_problem", 
+            "pre_key_anti_eavesdropping", 
+            "last_db_check_time", 
+            "pre_key_auto_start", 
+            "preferences_last_checkup_time", 
+            "last_scan_malwarelist", 
+            "preferences_home_anti_virus_showrisk_time", 
+            "preferences_setting_language", 
+            "schedule_scan", 
+            "item_scanned_count", 
+            "day", 
+            "pre_key_web_url_protect_number", 
+            "update_db", 
+            "pre_key_web_account_protection_enabled", 
+            "threat_detected_count", 
+            "preferences_version", 
+            "last_scan_time", 
+            "pre_key_vulnerability_scan_time", 
+            "pre_key_web_financial_protection_enabled", 
+            "preferences_is_show_welcome", 
+            "last_app_update_time", 
+            "lct", 
+            "last_scanned_count", 
+            "pre_key_web_malicious_url_block_number", 
+            "pre_key_icon_on_status_bar", 
+            "preferences_opti_cleanup_total_size", 
+            "preferences_home_anti_theft_showrisk_time", 
+            "preferences_opti_first_speedup", 
+            "lastest_virus_version", 
+            "last_app_download_time", 
+            "pre_key_web_url_protection_enabled", 
+            "checkup_score", 
+            "preferences_opti_last_speedup_time", 
+            "contact_auto_backup", 
+            "preferences_is_first_start", 
+            "preferences_checkup_has_red_problem", 
+            "virus_version", 
+            "pre_key_web_url_protect_start_time", 
+            "hour", 
+            "preferences_lock_screen", 
+            "pre_key_web_account_protect_start_time", 
+            "realtime_protection_enabled", 
+            "preferences_is_first_enter", 
+            "last_scan_elapse", 
+            "preferences_checkup_tip_time", 
+            "call_blocking_status", 
+            "pre_key_web_financial_protect_start_time"
+        ], 
+        "called_apis": [
+            "android.location.LocationManager;->getBestProvider", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.app.ActivityManager;->getRecentTasks", 
+            "android.net.wifi.WifiManager;->startScan", 
+            "com.myaircover.security.helper.ch;->c", 
+            "android.app.ActivityThread;->handleReceiver", 
+            "com.myaircover.security.e.b;->a", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.content.ContentResolver;->delete", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "com.myaircover.security.i.u;->a", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.content.ContentResolver;->query", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "com.myaircover.security.i.j;->j", 
+            "com.myaircover.security.i.j;->b", 
+            "com.myaircover.security.i.j;->a"
+        ], 
+        "content_resolvers": [
+            "content://browser/bookmarks", 
+            "content://call_log/calls", 
+            "content://com.android.launcher2.settings/favorites?notify=true", 
+            "NOT CACHED", 
+            "content://sms", 
+            "content://com.android.chrome.browser/bookmarks", 
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "com.bluespirg.aircover.event.widget_update", 
+            "com.bluespirg.aircover.event.privacy_advisor_ad_delete", 
+            "com.bluespirg.aircover.event.anti_theft_backup", 
+            "com.bluespirg.aircover.event.anti_theft_experience_sound_alarm", 
+            "android.intent.action.NEW_OUTGOING_CALL", 
+            "com.bluespirg.aircover.event.anti_theft_lock_sound_alarm", 
+            "com.bluespirg.aircover.event.auto_backup_stop", 
+            "com.bluespirg.aircover.event.auto_scan", 
+            "com.bluespirg.aircover.event.app_install", 
+            "android.intent.action.PACKAGE_ADDED", 
+            "com.bluespirg.aircover.event.mainnotify_tip", 
+            "com.bluespirg.aircover.event.app_prev_uninstall", 
+            "android.intent.action.PACKAGE_INSTALL", 
+            "com.bluespirg.aircover.event.task_cleaned", 
+            "com.bluespirg.aircover.event.scan_download_state_change", 
+            "com.bluespirg.aircover.event.anti_theft_trigger_pic", 
+            "android.provider.Telephony.SMS_RECEIVED", 
+            "com.bluespirg.aircover.event.refresh_unread_sms_count", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "com.bluespirg.aircover.event.anti_theft_experience_locate", 
+            "com.bluespirg.aircover.event.notification_switch", 
+            "com.bluespirg.aircover.event.switch_mode", 
+            "com.bluespirg.aircover.event.account_change", 
+            "com.bluespirg.aircover.event.privacy_advisor_delete", 
+            "com.bluespirg.aircover.event.single_cache_clean", 
+            "com.bluespirg.aircover.event.anti_theft_delete_data", 
+            "com.bluespirg.aircover.event.anti_theft_experience_trigger_pic", 
+            "com.bluespirg.aircover.event.auto_backup_completed", 
+            "android.intent.action.PACKAGE_REMOVED", 
+            "com.bluespirg.aircover.event.speed_up_event", 
+            "com.bluespirg.aircover.event.contact_listner_start", 
+            "com.bluespirg.aircover.event.check_update_finish", 
+            "com.bluespirg.aircover.event.exit", 
+            "android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE", 
+            "com.bluespirg.aircover.event.contact_listner_stop", 
+            "android.intent.action.PHONE_STATE", 
+            "com.bluespirg.aircover.event.refresh_unread_call_log_count", 
+            "com.bluespirg.aircover.event.mainnotify_malware", 
+            "com.bluespirg.aircover.event.auto_backup_start", 
+            "com.bluespirg.aircover.event.db_update_ok", 
+            "com.bluespirg.aircover.event.anti_theft_sim_change", 
+            "com.myaircover.security.service.MainService_ALARM_ACTION", 
+            "com.bluespirg.aircover.event.language_change", 
+            "com.bluespirg.aircover.event.anti_theft_lock", 
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "com.bluespirg.aircover.event.mode_changed", 
+            "com.bluespirg.aircover.event.app_remove", 
+            "com.bluespirg.aircover.event.block_notification", 
+            "com.bluespirg.aircover.event.top_app_changed", 
+            "com.bluespirg.aircover.event.anti_theft_locate", 
+            "com.bluespirg.aircover.event.app_selector"
+        ], 
+        "hooked_method": [
+            "/values", 
+            "android.widget.LinearLayout/getTranslationX", 
+            "android.os.storage.StorageManager/getVolumeState", 
+            "/addChangeCallback", 
+            "/getInstance", 
+            "/getLong", 
+            "android.os.storage.StorageManager/getVolumePaths"
+        ], 
+        "others": {
+            "android.app.ActivityThread;->handleReceiver": [
+                "[\"ReceiverData{intent=Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 cmp=com.myaircover.security/.receiver.NetStateReceiver (has extras) } packageName=com.myaircover.security resultCode=-1 resultData=null resultExtras=null}\"]", 
+                "[\"ReceiverData{intent=Intent { flg=0x14 cmp=com.myaircover.security/.receiver.DailyReceiver (has extras) } packageName=com.myaircover.security resultCode=0 resultData=null resultExtras=null}\"]", 
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.myaircover.security/.receiver.NetStateReceiver (has extras) } packageName=com.myaircover.security resultCode=-1 resultData=null resultExtras=null}\"]"
+            ], 
+            "com.myaircover.security.e.b;->a": [
+                "[\"org.apache.http.impl.client.DefaultHttpClient\", \"aircoversecurity.myaircover.com\"]", 
+                "[\"org.apache.http.impl.client.DefaultHttpClient\", \"stats.myaircover.com\"]"
+            ], 
+            "android.location.LocationManager;->getBestProvider": [
+                "[\"true\"]"
+            ], 
+            "android.location.LocationManager;->getLastKnownLocation": [
+                "[\"gps\"]"
+            ], 
+            "android.app.ActivityManager;->getRunningTasks": [
+                "[\"2147483647\"]", 
+                "[\"1\"]"
+            ], 
+            "com.myaircover.security.i.j;->j": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "com.myaircover.security.i.u;->a": [
+                "[]"
+            ], 
+            "android.app.ActivityManager;->getRecentTasks": [
+                "[\"2147483647\", \"0\"]"
+            ], 
+            "com.myaircover.security.i.j;->b": [
+                "[]"
+            ], 
+            "com.myaircover.security.helper.ch;->c": [
+                "[]"
+            ], 
+            "android.net.wifi.WifiManager;->startScan": [
+                "[]"
+            ], 
+            "com.myaircover.security.i.j;->a": [
+                "[\"5.0\"]", 
+                "[\"50.0\"]", 
+                "[\"16.0\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.net.wifi.WifiManager;->startScan", 
+            "android.location.LocationManager;->getBestProvider", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.content.ContentResolver;->delete", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRecentTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "file:///android_asset/html/PrivacyPolicy.html", 
+            "file:///android_asset/html/paypal.htm"
+        ], 
+        "shared_preferences": [
+            "pre_key_web_financial_protect_number", 
+            "pre_key_web_account_protect_number", 
+            "pre_key_vulnerability_scan_status", 
+            "uninstalled_app", 
+            "pre_key_vulnerability_count", 
+            "last_db_update_success_time", 
+            "preferences_uninstall_lock", 
+            "checkup_problem", 
+            "pre_key_anti_eavesdropping", 
+            "last_db_check_time", 
+            "pre_key_auto_start", 
+            "preferences_last_checkup_time", 
+            "last_scan_malwarelist", 
+            "preferences_home_anti_virus_showrisk_time", 
+            "preferences_setting_language", 
+            "schedule_scan", 
+            "item_scanned_count", 
+            "pre_key_web_url_protect_number", 
+            "update_db", 
+            "pre_key_web_account_protection_enabled", 
+            "threat_detected_count", 
+            "preferences_version", 
+            "last_scan_time", 
+            "pre_key_vulnerability_scan_time", 
+            "pre_key_web_financial_protection_enabled", 
+            "preferences_is_show_welcome", 
+            "last_app_update_time", 
+            "lct", 
+            "last_scanned_count", 
+            "pre_key_web_malicious_url_block_number", 
+            "pre_key_icon_on_status_bar", 
+            "preferences_opti_cleanup_total_size", 
+            "preferences_home_anti_theft_showrisk_time", 
+            "preferences_opti_first_speedup", 
+            "lastest_virus_version", 
+            "last_app_download_time", 
+            "pre_key_web_url_protection_enabled", 
+            "checkup_score", 
+            "preferences_opti_last_speedup_time", 
+            "contact_auto_backup", 
+            "preferences_is_first_start", 
+            "preferences_checkup_has_red_problem", 
+            "virus_version", 
+            "pre_key_web_url_protect_start_time", 
+            "preferences_lock_screen", 
+            "pre_key_web_account_protect_start_time", 
+            "realtime_protection_enabled", 
+            "preferences_is_first_enter", 
+            "last_scan_elapse", 
+            "preferences_checkup_tip_time", 
+            "call_blocking_status", 
+            "pre_key_web_financial_protect_start_time"
+        ], 
+        "called_apis": [
+            "android.location.LocationManager;->getBestProvider", 
+            "com.myaircover.security.i.o;->a", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.app.ActivityManager;->getRecentTasks", 
+            "android.net.wifi.WifiManager;->startScan", 
+            "com.myaircover.security.helper.ch;->c", 
+            "android.app.ActivityThread;->handleReceiver", 
+            "com.myaircover.security.e.b;->a", 
+            "android.location.LocationManager;->isProviderEnabled", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.content.ContentResolver;->delete", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "com.myaircover.security.i.u;->a", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.content.ContentResolver;->query", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "com.myaircover.security.i.j;->j", 
+            "com.myaircover.security.i.j;->b", 
+            "com.myaircover.security.i.j;->a"
+        ], 
+        "content_resolvers": [
+            "content://browser/bookmarks", 
+            "NOT CACHED", 
+            "content://com.android.chrome.browser/bookmarks", 
+            "content://com.android.launcher2.settings/favorites?notify=true", 
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "com.bluespirg.aircover.event.widget_update", 
+            "com.bluespirg.aircover.event.privacy_advisor_ad_delete", 
+            "com.bluespirg.aircover.event.anti_theft_backup", 
+            "com.bluespirg.aircover.event.anti_theft_experience_sound_alarm", 
+            "android.intent.action.NEW_OUTGOING_CALL", 
+            "com.bluespirg.aircover.event.anti_theft_lock_sound_alarm", 
+            "com.bluespirg.aircover.event.auto_backup_stop", 
+            "com.bluespirg.aircover.event.auto_scan", 
+            "com.bluespirg.aircover.event.app_install", 
+            "android.intent.action.PACKAGE_ADDED", 
+            "com.bluespirg.aircover.event.mainnotify_tip", 
+            "com.bluespirg.aircover.event.app_prev_uninstall", 
+            "android.intent.action.PACKAGE_INSTALL", 
+            "com.bluespirg.aircover.event.task_cleaned", 
+            "com.bluespirg.aircover.event.scan_download_state_change", 
+            "com.bluespirg.aircover.event.anti_theft_trigger_pic", 
+            "android.provider.Telephony.SMS_RECEIVED", 
+            "com.bluespirg.aircover.event.refresh_unread_sms_count", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "com.bluespirg.aircover.event.anti_theft_experience_locate", 
+            "com.bluespirg.aircover.event.notification_switch", 
+            "com.bluespirg.aircover.event.switch_mode", 
+            "com.bluespirg.aircover.event.account_change", 
+            "com.bluespirg.aircover.event.privacy_advisor_delete", 
+            "com.bluespirg.aircover.event.single_cache_clean", 
+            "com.bluespirg.aircover.event.anti_theft_delete_data", 
+            "com.bluespirg.aircover.event.anti_theft_experience_trigger_pic", 
+            "com.bluespirg.aircover.event.auto_backup_completed", 
+            "android.intent.action.PACKAGE_REMOVED", 
+            "com.bluespirg.aircover.event.speed_up_event", 
+            "com.bluespirg.aircover.event.contact_listner_start", 
+            "com.bluespirg.aircover.event.check_update_finish", 
+            "com.bluespirg.aircover.event.exit", 
+            "android.intent.action.EXTERNAL_APPLICATIONS_AVAILABLE", 
+            "com.bluespirg.aircover.event.contact_listner_stop", 
+            "android.intent.action.PHONE_STATE", 
+            "com.bluespirg.aircover.event.refresh_unread_call_log_count", 
+            "com.bluespirg.aircover.event.mainnotify_malware", 
+            "com.bluespirg.aircover.event.auto_backup_start", 
+            "com.bluespirg.aircover.event.db_update_ok", 
+            "com.bluespirg.aircover.event.anti_theft_sim_change", 
+            "com.myaircover.security.service.MainService_ALARM_ACTION", 
+            "com.bluespirg.aircover.event.language_change", 
+            "com.bluespirg.aircover.event.anti_theft_lock", 
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "com.bluespirg.aircover.event.mode_changed", 
+            "com.bluespirg.aircover.event.app_remove", 
+            "com.bluespirg.aircover.event.block_notification", 
+            "com.bluespirg.aircover.event.top_app_changed", 
+            "com.bluespirg.aircover.event.anti_theft_locate", 
+            "com.bluespirg.aircover.event.app_selector"
+        ], 
+        "hooked_method": [
+            "/values", 
+            "android.widget.LinearLayout/getTranslationX", 
+            "android.os.storage.StorageManager/getVolumeState", 
+            "/addChangeCallback", 
+            "/getInstance", 
+            "/getLong", 
+            "android.os.storage.StorageManager/getVolumePaths"
+        ], 
+        "others": {
+            "android.app.ActivityThread;->handleReceiver": [
+                "[\"ReceiverData{intent=Intent { act=android.intent.action.ANY_DATA_STATE flg=0x10 cmp=com.myaircover.security/.receiver.NetStateReceiver (has extras) } packageName=com.myaircover.security resultCode=-1 resultData=null resultExtras=null}\"]", 
+                "[\"ReceiverData{intent=Intent { flg=0x14 cmp=com.myaircover.security/.receiver.DailyReceiver (has extras) } packageName=com.myaircover.security resultCode=0 resultData=null resultExtras=null}\"]", 
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.myaircover.security/.receiver.NetStateReceiver (has extras) } packageName=com.myaircover.security resultCode=-1 resultData=null resultExtras=null}\"]"
+            ], 
+            "com.myaircover.security.e.b;->a": [
+                "[\"org.apache.http.impl.client.DefaultHttpClient\", \"aircoversecurity.myaircover.com\"]", 
+                "[\"org.apache.http.impl.client.DefaultHttpClient\", \"stats.myaircover.com\"]"
+            ], 
+            "android.location.LocationManager;->isProviderEnabled": [
+                "[\"gps\"]", 
+                "[\"network\"]"
+            ], 
+            "android.location.LocationManager;->getBestProvider": [
+                "[\"true\"]"
+            ], 
+            "com.myaircover.security.i.j;->b": [
+                "[]"
+            ], 
+            "android.location.LocationManager;->getLastKnownLocation": [
+                "[\"gps\"]", 
+                "[\"network\"]"
+            ], 
+            "android.app.ActivityManager;->getRunningTasks": [
+                "[\"2147483647\"]", 
+                "[\"1\"]"
+            ], 
+            "com.myaircover.security.i.j;->j": [
+                "[]"
+            ], 
+            "com.myaircover.security.i.o;->a": [
+                "[\"10000\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "com.myaircover.security.i.u;->a": [
+                "[]"
+            ], 
+            "android.app.ActivityManager;->getRecentTasks": [
+                "[\"2147483647\", \"0\"]"
+            ], 
+            "android.net.wifi.WifiManager;->startScan": [
+                "[]"
+            ], 
+            "com.myaircover.security.helper.ch;->c": [
+                "[]"
+            ], 
+            "com.myaircover.security.i.j;->a": [
+                "[\"5.0\"]", 
+                "[\"50.0\"]", 
+                "[\"16.0\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.location.LocationManager;->isProviderEnabled", 
+            "android.net.wifi.WifiManager;->startScan", 
+            "android.location.LocationManager;->getBestProvider", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.content.ContentResolver;->delete", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRecentTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "origin": {
+        "android:id/home": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "menu_search": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "menu_share": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/action_bar_title": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "document_list_starred": [
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_add_camera": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.widget.ImageButton": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "button_next": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/progress": [
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->query", 
+            "android.content.ContentResolver;->delete"
+        ], 
+        "tab_switcher": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "instructions": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "more": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.widget.FrameLayout": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "account_email": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/button1": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->update", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "document_list_number_of_sheets": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_add_gallery": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.view.View": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_upgrade": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/search_src_text": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/action_bar_spinner": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "account_password": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "iconcombo": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/message": [
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->delete", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.widget.RelativeLayout": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "button_multiple_done": [
+            "android.webkit.WebView;->loadDataWithBaseURL"
+        ]
+    }, 
+    "diff": {
+        "android:id/text1": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "action_cancel": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_search": [
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "repack": {
+        "menu_add_camera": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_search": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/text1": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/button1": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "action_cancel": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "button_next": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/search_src_text": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_add_gallery": [
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

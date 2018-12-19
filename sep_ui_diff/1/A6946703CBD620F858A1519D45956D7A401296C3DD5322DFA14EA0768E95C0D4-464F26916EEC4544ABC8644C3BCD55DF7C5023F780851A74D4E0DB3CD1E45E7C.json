@@ -1,0 +1,187 @@
+{
+    "origin": {
+        "menu_search": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "lock": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_share": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "favicon": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.ToggleButton": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.widget.Button": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/webviewchromium_select_action_menu_share": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.TextView": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_add_camera": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.widget.ImageButton": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/action_bar_spinner": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "button_next": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "tab_switcher": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/webviewchromium_select_action_menu_web_search": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.Image": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "more": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.widget.FrameLayout": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/action_mode_close_button": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/webviewchromium_select_action_menu_select_all": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/button1": [
+            "android.content.ContentResolver;->insert", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->delete", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->update", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_add_gallery": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.view.View": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_upgrade": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android:id/webviewchromium_select_action_menu_copy": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "url": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/search_src_text": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "ratingNotNow": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "iconcombo": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "button_multiple_done": [
+            "android.webkit.WebView;->loadDataWithBaseURL"
+        ]
+    }, 
+    "diff": {
+        "android:id/summary": [
+            "android.app.ActivityThread;->installContentProviders", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/home": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/text1": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "action_cancel": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/action_bar_title": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/up": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/title": [
+            "android.app.ActivityThread;->installContentProviders", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.app.ActivityThread;->installContentProviders", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "repack": {
+        "android:id/summary": [
+            "android.app.ActivityThread;->installContentProviders", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/home": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_add_camera": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/text1": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "BACK": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "action_cancel": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "button_next": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/action_bar_title": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/up": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/search_src_text": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "menu_add_gallery": [
+            "android.content.ContentResolver;->query"
+        ], 
+        "android:id/title": [
+            "android.app.ActivityThread;->installContentProviders", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.app.ActivityThread;->installContentProviders", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

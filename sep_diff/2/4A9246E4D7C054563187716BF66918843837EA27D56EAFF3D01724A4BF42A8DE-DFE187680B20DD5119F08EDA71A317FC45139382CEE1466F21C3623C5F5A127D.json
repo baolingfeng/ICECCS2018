@@ -1,0 +1,132 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "file:///android_asset/intro.html", 
+            "file:///android_asset/upgrade.html"
+        ], 
+        "shared_preferences": [
+            "showNew", 
+            "UserAgent", 
+            "deviceId", 
+            "showHints", 
+            "eula.accepted"
+        ], 
+        "called_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getTranslationX", 
+            "/getLong", 
+            "com.android.webview.chromium.ContentSettingsAdapter/getUserAgentString", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "android.app.ActivityManager;->getRunningTasks": [
+                "[\"1\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getLine1Number": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "javascript: document.body.style.margin = 0;", 
+            "googleads.g.doubleclick.net", 
+            "file:///android_asset/intro.html", 
+            "file:///android_asset/upgrade.html"
+        ], 
+        "shared_preferences": [
+            "showNew", 
+            "fetch_latency", 
+            "deviceId", 
+            "showHints", 
+            "UserAgent", 
+            "eula.accepted", 
+            "click_latency"
+        ], 
+        "called_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG"
+        ], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getTranslationX", 
+            "/getLong", 
+            "com.android.webview.chromium.ContentSettingsAdapter/getUserAgentString", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "android.app.ActivityManager;->getRunningTasks": [
+                "[\"1\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getLine1Number": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }
+}

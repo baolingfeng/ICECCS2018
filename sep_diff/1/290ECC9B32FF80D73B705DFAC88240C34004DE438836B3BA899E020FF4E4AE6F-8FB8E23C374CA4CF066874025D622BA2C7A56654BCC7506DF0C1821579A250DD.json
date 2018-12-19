@@ -1,0 +1,74 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "soundVolume", 
+            "soundMute", 
+            "musicMute", 
+            "me_this_score", 
+            "level"
+        ], 
+        "called_apis": [
+            "android.app.SharedPreferencesImpl$EditorImpl;->putFloat", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [
+            "/values"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "soundVolume", 
+            "soundMute", 
+            "musicMute", 
+            "me_this_score", 
+            "level"
+        ], 
+        "called_apis": [
+            "android.app.SharedPreferencesImpl$EditorImpl;->putFloat", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [
+            "/values"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ]
+    }
+}

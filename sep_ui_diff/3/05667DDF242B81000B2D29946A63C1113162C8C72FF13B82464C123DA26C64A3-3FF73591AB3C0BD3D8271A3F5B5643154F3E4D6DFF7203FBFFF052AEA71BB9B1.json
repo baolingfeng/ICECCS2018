@@ -1,0 +1,20 @@
+{
+    "origin": {
+        "android.view.View": [
+            "android.location.LocationManager;->getBestProvider", 
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "diff": {
+        "android.view.View": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "repack": {
+        "android.view.View": [
+            "android.location.LocationManager;->getBestProvider", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "java.net.URL;->openConnection"
+        ]
+    }
+}

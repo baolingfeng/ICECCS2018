@@ -1,0 +1,38 @@
+<android.support.v4.net.ConnectivityManagerCompat$BaseConnectivityManagerCompatImpl: boolean isActiveNetworkMetered(android.net.ConnectivityManager)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<byappy.icallmeon.ReminderPageInit: void onPause()>	Permission:android.permission.WAKE_LOCK
+<byappy.icallmeon.IncomeCall: void setAudioManager()>	Permission:android.permission.VIBRATE	Permission:android.permission.WAKE_LOCK	Permission:android.permission.BLUETOOTH
+<android.support.v4.net.ConnectivityManagerCompatGingerbread: boolean isActiveNetworkMetered(android.net.ConnectivityManager)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<byappy.icallmeon.IncomeCall: void onTrigger(android.view.View,int)>	Permission:android.permission.VIBRATE	Permission:android.permission.WAKE_LOCK
+<com.parse.signpost.basic.DefaultOAuthProvider: com.parse.signpost.http.HttpRequest createRequest(java.lang.String)throwsjava.net.MalformedURLException,java.io.IOException>	Permission:android.permission.INTERNET
+<byappy.icallmeon.IncomeCall$9: void onCompletion(android.media.MediaPlayer)>	Permission:android.permission.WAKE_LOCK
+<com.parse.signpost.basic.DefaultOAuthProvider: com.parse.signpost.http.HttpResponse sendRequest(com.parse.signpost.http.HttpRequest)throwsjava.io.IOException>	Permission:android.permission.INTERNET
+<com.facebook.android.Util: java.lang.String openUrl(java.lang.String,java.lang.String,android.os.Bundle)throwsjava.net.MalformedURLException,java.io.IOException>	Permission:android.permission.INTERNET
+<byappy.icallmeon.IncomeCall: void onStop()>	Permission:android.permission.VIBRATE	Permission:android.permission.WAKE_LOCK	Permission:android.permission.RECORD_AUDIO
+<byappy.icallmeon.VoiceRecognizer: void googleVoiceRecognizerOnline()>	Permission:android.permission.RECORD_AUDIO
+<byappy.icallmeon.RecordingPage: void onPause()>	Permission:android.permission.WAKE_LOCK
+<byappy.icallmeon.VoiceRecognizer: public byappy.icallmeon.VoiceRecognizer(android.app.Activity)>	Permission:android.permission.RECORD_AUDIO
+<byappy.icallmeon.IncomeCall$7: void onClick(android.view.View)>	Permission:android.permission.BLUETOOTH	Permission:android.permission.MODIFY_AUDIO_SETTINGS
+<com.parse.ParseTestUtils: java.net.ServerSocket mockPushServer()>	Permission:android.permission.INTERNET
+<byappy.icallmeon.ReminderPageSet: void onPause()>	Permission:android.permission.WAKE_LOCK
+<byappy.icallmeon.FakeCallPage$16: void onClick(android.view.View)>	Permission:android.permission.WAKE_LOCK
+<com.google.analytics.tracking.android.SimpleNetworkDispatcher: boolean okToDispatch()>	Permission:android.permission.ACCESS_NETWORK_STATE
+<com.parse.ConnectivityNotifier: boolean isConnected()>	Permission:android.permission.ACCESS_NETWORK_STATE
+<byappy.icallmeon.ReminderPageSet$ReminderPageSetAdapter$3: void onClick(android.view.View)>	Permission:android.permission.WAKE_LOCK
+<byappy.icallmeon.IncomeCall$5: void onClick(android.view.View)>	Permission:android.permission.VIBRATE	Permission:android.permission.WAKE_LOCK
+<byappy.icallmeon.IncomeCall$10: void onCompletion(android.media.MediaPlayer)>	Permission:android.permission.WAKE_LOCK
+<com.parse.LocationNotifier: com.parse.Task<com.parse.ParseGeoPoint> getCurrentLocationAsync(long,android.location.Criteria)>	Permission:android.permission.ACCESS_FINE_LOCATION
+<android.support.v4.net.ConnectivityManagerCompatJellyBean: boolean isActiveNetworkMetered(android.net.ConnectivityManager)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<byappy.icallmeon.WhoCallYouPageInit$12$1: void onClick(android.view.View)>	Permission:android.permission.WAKE_LOCK
+<com.facebook.Request: java.net.HttpURLConnection createConnection(java.net.URL)throwsjava.io.IOException>	Permission:android.permission.INTERNET
+<byappy.icallmeon.FakeCallPage: void onPause()>	Permission:android.permission.WAKE_LOCK
+<byappy.icallmeon.IncomeCall: void onCreate(android.os.Bundle)>	Permission:android.permission.WAKE_LOCK
+<byappy.icallmeon.IncomeCall$4: void onClick(android.view.View)>	Permission:android.permission.VIBRATE	Permission:android.permission.WAKE_LOCK
+<byappy.icallmeon.ReminderPageInit$8$1: void onClick(android.view.View)>	Permission:android.permission.WAKE_LOCK
+<com.parse.StandardPushCallback: void run()>	Permission:android.permission.VIBRATE
+<byappy.icallmeon.WhoCallYouPageSet$16: void onClick(android.view.View)>	Permission:android.permission.WAKE_LOCK
+<byappy.icallmeon.IncomeCall$6: void onClick(android.view.View)>	Permission:android.permission.WAKE_LOCK
+<byappy.icallmeon.WhoCallYouPageInit: void onPause()>	Permission:android.permission.WAKE_LOCK
+<byappy.icallmeon.IncomeCall$8: void onClick(android.view.View)>	Permission:android.permission.WAKE_LOCK
+<byappy.icallmeon.ReminderPageSet$14: void onClick(android.view.View)>	Permission:android.permission.WAKE_LOCK
+<android.support.v4.net.ConnectivityManagerCompatHoneycombMR2: boolean isActiveNetworkMetered(android.net.ConnectivityManager)>	Permission:android.permission.ACCESS_NETWORK_STATE
+<byappy.icallmeon.WhoCallYouPageSet: void onPause()>	Permission:android.permission.WAKE_LOCK

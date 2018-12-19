@@ -1,0 +1,76 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "market.android.com", 
+            "w5.andoop.com", 
+            "mm.admob.com", 
+            "r.admob.com"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "java.net.URL;->openConnection", 
+            "com.admob.android.ads.i;->d", 
+            "com.andoop.android.common.WebRequest;->run", 
+            "com.andoop.android.common.HTTPThread;->run"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "others": {
+            "com.andoop.android.common.HTTPThread;->run": [
+                "[]"
+            ], 
+            "com.admob.android.ads.i;->d": [
+                "[]"
+            ], 
+            "com.andoop.android.common.WebRequest;->run": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "market.android.com", 
+            "w5.andoop.com", 
+            "mm.admob.com", 
+            "r.admob.com"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "java.net.URL;->openConnection", 
+            "com.admob.android.ads.i;->d", 
+            "com.andoop.android.common.WebRequest;->run", 
+            "com.andoop.android.common.HTTPThread;->run"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "others": {
+            "com.andoop.android.common.HTTPThread;->run": [
+                "[]"
+            ], 
+            "com.admob.android.ads.i;->d": [
+                "[]"
+            ], 
+            "com.andoop.android.common.WebRequest;->run": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "java.net.URL;->openConnection"
+        ]
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "mm.admob.com", 
+            "r.admob.com"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection", 
+            "android.os.PowerManager$WakeLock;->release", 
+            "com.admob.android.ads.i;->d", 
+            "android.location.LocationManager;->getBestProvider"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "others": {
+            "android.os.PowerManager$WakeLock;->acquire": [
+                "[]"
+            ], 
+            "android.location.LocationManager;->getBestProvider": [
+                "[\"true\"]"
+            ], 
+            "com.admob.android.ads.i;->d": [
+                "[]"
+            ], 
+            "android.os.PowerManager$WakeLock;->release": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "java.net.URL;->openConnection", 
+            "android.os.PowerManager$WakeLock;->release", 
+            "android.location.LocationManager;->getBestProvider"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "mm.admob.com", 
+            "r.admob.com"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.location.LocationManager;->getBestProvider", 
+            "android.os.PowerManager$WakeLock;->release", 
+            "com.admob.android.ads.i;->d", 
+            "java.net.URL;->openConnection"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "others": {
+            "android.os.PowerManager$WakeLock;->acquire": [
+                "[]"
+            ], 
+            "android.location.LocationManager;->getBestProvider": [
+                "[\"true\"]"
+            ], 
+            "com.admob.android.ads.i;->d": [
+                "[]"
+            ], 
+            "android.os.PowerManager$WakeLock;->release": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.os.PowerManager$WakeLock;->acquire", 
+            "android.location.LocationManager;->getBestProvider", 
+            "android.os.PowerManager$WakeLock;->release", 
+            "java.net.URL;->openConnection"
+        ]
+    }
+}

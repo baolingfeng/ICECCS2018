@@ -1,0 +1,24 @@
+{
+    "origin": {
+        "search_button": [
+            "android.location.LocationManager;->getBestProvider", 
+            "java.net.URL;->openConnection"
+        ], 
+        "ImageButton01": [
+            "java.net.URL;->openConnection", 
+            "android.location.LocationManager;->getBestProvider"
+        ], 
+        "ImageButton02": [
+            "android.location.LocationManager;->getBestProvider", 
+            "java.net.URL;->openConnection"
+        ], 
+        "Button01": [
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.CheckBox": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "diff": {}, 
+    "repack": {}
+}

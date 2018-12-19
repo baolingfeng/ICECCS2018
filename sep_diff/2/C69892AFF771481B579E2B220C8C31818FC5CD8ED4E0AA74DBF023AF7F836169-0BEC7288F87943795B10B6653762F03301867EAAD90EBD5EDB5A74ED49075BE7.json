@@ -1,0 +1,54 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "java.lang.reflect.Method;->invoke"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [
+            "/values"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "java.lang.reflect.Method;->invoke"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [
+            "/values"
+        ], 
+        "others": {
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ]
+    }
+}

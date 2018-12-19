@@ -1,0 +1,241 @@
+{
+    "diff": {
+        "urls": [
+            "csapi.adfeiwo.com:9999"
+        ], 
+        "shared_preferences": [
+            "showatscreenonuser", 
+            "s_height", 
+            "phone_imei", 
+            "IS_INIT_INSTALL", 
+            "uid", 
+            "t_mode", 
+            "today_date", 
+            "init_install", 
+            "screen_width", 
+            "app_key", 
+            "timing_mode", 
+            "available_request_num", 
+            "screen_off", 
+            "push_channel", 
+            "request_ad_time", 
+            "appkey", 
+            "twice_space_time", 
+            "app_ch", 
+            "s_width", 
+            "density_dpi", 
+            "screen_height", 
+            "net_changed_time", 
+            "phone_imsi"
+        ], 
+        "content_resolvers": [], 
+        "others": {
+            "android.app.ActivityThread;->handleReceiver": [
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.vinanetjsc.dkamphuocFilix/com.fivefeiwo.coverscreen.SR (has extras) } packageName=com.vinanetjsc.dkamphuocFilix resultCode=0 resultData=null resultExtras=null}\"]", 
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.vinanetjsc.dkamphuocFilix/com.bupan.tuuappmn.Rj (has extras) } packageName=com.vinanetjsc.dkamphuocFilix resultCode=0 resultData=null resultExtras=null}\"]", 
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.vinanetjsc.dkamphuocFilix/com.spawu.z7wrpa.Zczusen (has extras) } packageName=com.vinanetjsc.dkamphuocFilix resultCode=0 resultData=null resultExtras=null}\"]"
+            ], 
+            "org.apache.cordova.NetworkManager;->execute": [
+                "[\"getConnectionInfo\", \"org.apache.cordova.api.CallbackContext\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getSubscriberId": [
+                "[]"
+            ], 
+            "com.google.ads.util.AdUtil;->d": [
+                "[\"android.app.Application\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "org.apache.cordova.NetworkManager$1;->onReceive": [
+                "[\"com.vinanetjsc.dkamphuocFilix.MainActivity\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getSimSerialNumber": [
+                "[]"
+            ]
+        }, 
+        "broadcast_receivers": [
+            "android.intent.action.SCREEN_ON"
+        ], 
+        "hooked_method": [], 
+        "called_apis": [
+            "android.app.ActivityThread;->handleReceiver", 
+            "org.apache.cordova.NetworkManager;->execute", 
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "java.net.URL;->openConnection", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt", 
+            "org.apache.cordova.NetworkManager$1;->onReceive", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "com.google.ads.util.AdUtil;->d"
+        ], 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "java.net.URL;->openConnection", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getSubscriberId"
+        ]
+    }, 
+    "repack_res": {
+        "urls": [
+            "javascript:cordova.fireDocumentEvent('backbutton')", 
+            "javascript:onResume();", 
+            "file:///android_asset/www/index.html", 
+            "csapi.adfeiwo.com:9999", 
+            "media.admob.com"
+        ], 
+        "shared_preferences": [
+            "showatscreenonuser", 
+            "s_height", 
+            "phone_imei", 
+            "drt", 
+            "drt_ts", 
+            "IS_INIT_INSTALL", 
+            "uid", 
+            "t_mode", 
+            "today_date", 
+            "init_install", 
+            "screen_width", 
+            "app_key", 
+            "timing_mode", 
+            "available_request_num", 
+            "screen_off", 
+            "push_channel", 
+            "request_ad_time", 
+            "appkey", 
+            "twice_space_time", 
+            "app_ch", 
+            "s_width", 
+            "density_dpi", 
+            "phone_imsi", 
+            "net_changed_time", 
+            "screen_height"
+        ], 
+        "called_apis": [
+            "android.app.ActivityThread;->handleReceiver", 
+            "com.google.ads.util.AdUtil;->d", 
+            "org.apache.cordova.NetworkManager$1;->onReceive", 
+            "org.apache.cordova.NetworkManager;->execute", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "java.net.URL;->openConnection", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.content.ContentResolver;->query", 
+            "android.telephony.TelephonyManager;->getSubscriberId"
+        ], 
+        "content_resolvers": [
+            "content://com.google.plus.platform/token", 
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.CONFIGURATION_CHANGED", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.intent.action.SCREEN_ON", 
+            "android.intent.action.PHONE_STATE", 
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/a", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "android.app.ActivityThread;->handleReceiver": [
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.vinanetjsc.dkamphuocFilix/com.fivefeiwo.coverscreen.SR (has extras) } packageName=com.vinanetjsc.dkamphuocFilix resultCode=0 resultData=null resultExtras=null}\"]", 
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.vinanetjsc.dkamphuocFilix/com.bupan.tuuappmn.Rj (has extras) } packageName=com.vinanetjsc.dkamphuocFilix resultCode=0 resultData=null resultExtras=null}\"]", 
+                "[\"ReceiverData{intent=Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4000010 cmp=com.vinanetjsc.dkamphuocFilix/com.spawu.z7wrpa.Zczusen (has extras) } packageName=com.vinanetjsc.dkamphuocFilix resultCode=0 resultData=null resultExtras=null}\"]"
+            ], 
+            "org.apache.cordova.NetworkManager;->execute": [
+                "[\"getConnectionInfo\", \"org.apache.cordova.api.CallbackContext\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "com.google.ads.util.AdUtil;->d": [
+                "[\"android.app.Application\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getSubscriberId": [
+                "[]"
+            ], 
+            "org.apache.cordova.NetworkManager$1;->onReceive": [
+                "[\"com.vinanetjsc.dkamphuocFilix.MainActivity\"]"
+            ], 
+            "android.telephony.TelephonyManager;->getSimSerialNumber": [
+                "[]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.telephony.TelephonyManager;->getSimSerialNumber", 
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "java.net.URL;->openConnection", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "javascript:cordova.fireDocumentEvent('backbutton')", 
+            "javascript:onResume();", 
+            "file:///android_asset/www/index.html", 
+            "media.admob.com"
+        ], 
+        "shared_preferences": [
+            "drt_ts", 
+            "drt"
+        ], 
+        "called_apis": [
+            "android.app.SharedPreferencesImpl$EditorImpl;->putLong", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ], 
+        "content_resolvers": [
+            "content://com.google.plus.platform/token", 
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.CONFIGURATION_CHANGED", 
+            "android.net.conn.CONNECTIVITY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.intent.action.PHONE_STATE", 
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "/getLong", 
+            "/a", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {}, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

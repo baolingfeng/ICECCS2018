@@ -1,0 +1,112 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "<html><head><script src=\"http://www.gstatic.com/af", 
+            "moreappstoshare.info"
+        ], 
+        "shared_preferences": [
+            "SHARE_FORMAT", 
+            "SAVE_FORMAT", 
+            "ACCESS_COUNT"
+        ], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "com.google.ads.util.AdUtil;->d", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.security.STORAGE_CHANGED", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getTranslationX", 
+            "/getLong", 
+            "android.graphics.drawable.BitmapDrawable/setTargetDensity", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "com.google.ads.util.AdUtil;->d": [
+                "[\"com.northpark.beautycamera.AppInfo\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.content.ContentResolver;->openInputStream"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "<html><head><script src=\"http://www.gstatic.com/af", 
+            "moreappstoshare.info"
+        ], 
+        "shared_preferences": [
+            "SHARE_FORMAT", 
+            "SAVE_FORMAT", 
+            "ACCESS_COUNT"
+        ], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.content.ContentResolver;->openInputStream", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "com.google.ads.util.AdUtil;->d", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.security.STORAGE_CHANGED", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "android.widget.LinearLayout/getTranslationX", 
+            "/getLong", 
+            "android.graphics.drawable.BitmapDrawable/setTargetDensity", 
+            "/values", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "com.google.ads.util.AdUtil;->d": [
+                "[\"com.northpark.beautycamera.AppInfo\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl", 
+            "android.content.ContentResolver;->openInputStream"
+        ]
+    }
+}

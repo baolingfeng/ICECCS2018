@@ -1,0 +1,121 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [
+            "content://net.halfmobile.scannerpro.documents/documents"
+        ], 
+        "others": {
+            "android.app.ActivityThread;->installContentProviders": [
+                "[\"net.halfmobile.scannerpro.ScannerProApplication\"]"
+            ]
+        }, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "welcome_executed", 
+            "open_count"
+        ], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.app.ActivityThread;->installContentProviders", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "android.content.ContentResolver;->query", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "NOT CACHED", 
+            "content://net.halfmobile.scannerpro.documents/documents"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.CONFIGURATION_CHANGED"
+        ], 
+        "hooked_method": [
+            "net.halfmobile.scanner.m/provideBus", 
+            "/values"
+        ], 
+        "others": {
+            "android.app.ActivityThread;->installContentProviders": [
+                "[\"net.halfmobile.scannerpro.ScannerProApplication\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.app.ActivityThread;->installContentProviders", 
+            "android.content.ContentResolver;->query"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "<html><head><script src=\"http://media.admob.com/sd"
+        ], 
+        "shared_preferences": [
+            "preferences_system_camera", 
+            "open_count", 
+            "preferences_enhancement_default", 
+            "preferences_page_layout", 
+            "welcome_executed", 
+            "preferences_adv_controls", 
+            "preferences_page_size", 
+            "preferences_scan_quality", 
+            "preferences_detect_corners", 
+            "preferences_export_quality", 
+            "preferences_syncservices_syncon"
+        ], 
+        "called_apis": [
+            "android.app.ContextImpl;->registerReceiver", 
+            "com.google.android.apps.analytics.i;->b", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.app.ActivityThread;->installContentProviders", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putBoolean", 
+            "com.google.ads.util.AdUtil;->d", 
+            "java.lang.reflect.Method;->invoke", 
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putInt"
+        ], 
+        "content_resolvers": [
+            "NOT CACHED", 
+            "content://net.halfmobile.scannerfree.documents/documents", 
+            "/secure/accessibility_script_injection", 
+            "content://settings/system"
+        ], 
+        "broadcast_receivers": [
+            "android.intent.action.CONFIGURATION_CHANGED", 
+            "android.intent.action.PROXY_CHANGE", 
+            "android.intent.action.HEADSET_PLUG", 
+            "android.intent.action.SCREEN_OFF", 
+            "android.intent.action.USER_PRESENT"
+        ], 
+        "hooked_method": [
+            "net.halfmobile.scanner.DocumentListActivity/numberOfDocumentsChanged", 
+            "/getLong", 
+            "/values", 
+            "net.halfmobile.scanner.m/provideBus", 
+            "/addChangeCallback"
+        ], 
+        "others": {
+            "android.app.ActivityThread;->installContentProviders": [
+                "[\"net.halfmobile.scannerfree.ScannerFreeApplication\"]"
+            ], 
+            "com.google.android.apps.analytics.i;->b": [
+                "[]"
+            ], 
+            "com.google.ads.util.AdUtil;->d": [
+                "[\"net.halfmobile.scannerfree.ScannerFreeApplication\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.webkit.WebView;->loadDataWithBaseURL", 
+            "android.app.ActivityThread;->installContentProviders", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.content.ContentResolver;->query"
+        ]
+    }
+}

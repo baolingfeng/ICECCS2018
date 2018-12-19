@@ -1,0 +1,48 @@
+{
+    "diff": {
+        "urls": [
+            "mm.admob.com", 
+            "r.admob.com"
+        ], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [
+            "mm.admob.com", 
+            "r.admob.com"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "java.net.URL;->openConnection"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "others": {}, 
+        "called_sen_apis": [
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [
+            "a.d.cn"
+        ], 
+        "shared_preferences": [], 
+        "called_apis": [
+            "java.net.URL;->openConnection"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "others": {}, 
+        "called_sen_apis": [
+            "java.net.URL;->openConnection"
+        ]
+    }
+}

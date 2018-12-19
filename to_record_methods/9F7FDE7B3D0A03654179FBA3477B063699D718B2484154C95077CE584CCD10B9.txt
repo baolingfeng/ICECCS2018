@@ -1,0 +1,3 @@
+<com.admob.android.ads.i: boolean a()>	Permission:android.permission.INTERNET
+<com.admob.android.ads.AdManager: android.location.Location getCoordinates(android.content.Context)>	Permission:android.permission.ACCESS_FINE_LOCATION
+<com.admob.android.ads.view.AdMobWebView: public com.admob.android.ads.view.AdMobWebView(android.content.Context,android.widget.RelativeLayout,java.lang.String)>	Permission:android.permission.INTERNET

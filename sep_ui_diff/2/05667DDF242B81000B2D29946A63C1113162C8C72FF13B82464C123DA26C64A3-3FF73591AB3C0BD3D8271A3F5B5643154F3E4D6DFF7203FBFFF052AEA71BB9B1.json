@@ -1,0 +1,49 @@
+{
+    "origin": {
+        "url": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.view.View": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "ad": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.webkit.WebView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }, 
+    "diff": {
+        "android.widget.Image": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "webview": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "android.location.LocationManager;->getBestProvider", 
+            "java.net.URL;->openConnection"
+        ]
+    }, 
+    "repack": {
+        "ad": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "BACK": [
+            "android.location.LocationManager;->getBestProvider", 
+            "java.net.URL;->openConnection"
+        ], 
+        "android.widget.Image": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "webview": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.view.View": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "android.webkit.WebView": [
+            "android.content.ContentResolver;->registerContentObserver"
+        ]
+    }
+}

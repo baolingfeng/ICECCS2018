@@ -1,0 +1,182 @@
+{
+    "diff": {
+        "urls": [], 
+        "shared_preferences": [], 
+        "content_resolvers": [], 
+        "others": {}, 
+        "broadcast_receivers": [], 
+        "hooked_method": [], 
+        "called_apis": [], 
+        "called_sen_apis": []
+    }, 
+    "repack_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "C97CE45F9A5A447c98BBB83D88790503", 
+            "F1B19978F3D74302BA126760F96262CD", 
+            "CBD2998A3D5A4744BF128B91E1410DEA", 
+            "A33E523A1CEF496dB37ABD886CBCB005"
+        ], 
+        "called_apis": [
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "java.lang.reflect.Method;->invoke", 
+            "net.youmi.android.eh;->c", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "net.youmi.android.ei;->a", 
+            "net.youmi.android.by;->a", 
+            "net.youmi.android.eh;->g", 
+            "net.youmi.android.u;->a", 
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "net.youmi.android.u;->b", 
+            "net.youmi.android.br;->b", 
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [
+            "android.intent.action.PACKAGE_ADDED", 
+            "android.intent.action.PACKAGE_INSTALL"
+        ], 
+        "hooked_method": [
+            "/values"
+        ], 
+        "others": {
+            "net.youmi.android.br;->b": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getSubscriberId": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getLine1Number": [
+                "[]"
+            ], 
+            "net.youmi.android.eh;->c": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "android.location.LocationManager;->getLastKnownLocation": [
+                "[\"network\"]"
+            ], 
+            "net.youmi.android.ei;->a": [
+                "[\"com.android.remotecontrolppt.fastcontrolActivity\"]", 
+                "[\"com.android.remotecontrolppt.RemoteControlPPTActivity\"]"
+            ], 
+            "net.youmi.android.by;->a": [
+                "[\"aos.gw.youmi.net\"]"
+            ], 
+            "net.youmi.android.eh;->g": [
+                "[]"
+            ], 
+            "net.youmi.android.u;->a": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getCellLocation": [
+                "[]"
+            ], 
+            "net.youmi.android.u;->b": [
+                "[\"com.android.remotecontrolppt.fastcontrolActivity\"]"
+            ], 
+            "java.net.MulticastSocket;->joinGroup": [
+                "[\"/238.10.10.1\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ]
+    }, 
+    "origin_res": {
+        "urls": [], 
+        "shared_preferences": [
+            "C97CE45F9A5A447c98BBB83D88790503", 
+            "F1B19978F3D74302BA126760F96262CD", 
+            "CBD2998A3D5A4744BF128B91E1410DEA", 
+            "A33E523A1CEF496dB37ABD886CBCB005"
+        ], 
+        "called_apis": [
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.app.ContextImpl;->registerReceiver", 
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "java.lang.reflect.Method;->invoke", 
+            "net.youmi.android.eh;->c", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.SharedPreferencesImpl$EditorImpl;->putString", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "net.youmi.android.ei;->a", 
+            "net.youmi.android.by;->a", 
+            "net.youmi.android.eh;->g", 
+            "net.youmi.android.u;->a", 
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "net.youmi.android.u;->b", 
+            "net.youmi.android.br;->b", 
+            "java.net.MulticastSocket;->joinGroup"
+        ], 
+        "content_resolvers": [], 
+        "broadcast_receivers": [
+            "android.intent.action.PACKAGE_ADDED", 
+            "android.intent.action.PACKAGE_INSTALL"
+        ], 
+        "hooked_method": [
+            "/values"
+        ], 
+        "others": {
+            "net.youmi.android.br;->b": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getSubscriberId": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getLine1Number": [
+                "[]"
+            ], 
+            "net.youmi.android.eh;->c": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getDeviceId": [
+                "[]"
+            ], 
+            "android.location.LocationManager;->getLastKnownLocation": [
+                "[\"network\"]"
+            ], 
+            "net.youmi.android.ei;->a": [
+                "[\"com.android.remotecontrolppt.fastcontrolActivity\"]", 
+                "[\"com.android.remotecontrolppt.RemoteControlPPTActivity\"]"
+            ], 
+            "net.youmi.android.by;->a": [
+                "[\"aos.gw.youmi.net\"]"
+            ], 
+            "net.youmi.android.eh;->g": [
+                "[]"
+            ], 
+            "net.youmi.android.u;->a": [
+                "[]"
+            ], 
+            "android.telephony.TelephonyManager;->getCellLocation": [
+                "[]"
+            ], 
+            "net.youmi.android.u;->b": [
+                "[\"com.android.remotecontrolppt.fastcontrolActivity\"]"
+            ], 
+            "java.net.MulticastSocket;->joinGroup": [
+                "[\"/238.10.10.1\"]"
+            ]
+        }, 
+        "called_sen_apis": [
+            "android.telephony.TelephonyManager;->getSubscriberId", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.location.LocationManager;->getLastKnownLocation", 
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.telephony.TelephonyManager;->getCellLocation", 
+            "java.net.MulticastSocket;->joinGroup"
+        ]
+    }
+}

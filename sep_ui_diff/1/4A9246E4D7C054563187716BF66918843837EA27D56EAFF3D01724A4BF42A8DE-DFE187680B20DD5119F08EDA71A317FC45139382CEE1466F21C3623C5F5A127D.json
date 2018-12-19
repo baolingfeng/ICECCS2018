@@ -1,0 +1,273 @@
+{
+    "origin": {
+        "embedded_text_editor": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "BACK": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "IntroView": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "tryPro": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "BubbleImage": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.Button": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/webviewchromium_select_action_menu_share": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.widget.TextView": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.ListView": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.ProgressBar": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "start": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.telephony.TelephonyManager;->getLine1Number", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "score": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "tab_switcher": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/webviewchromium_select_action_menu_web_search": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/checkbox": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "more": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "donotshow": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "ScrollView01": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "mainnewgame": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "undo": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.widget.Spinner": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.view.View": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "recipients_editor": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.webkit.WebView": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/webviewchromium_select_action_menu_copy": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "url": [
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "iconcombo": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/title": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "history": [
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }, 
+    "diff": {
+        "android.widget.Button": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "analog_appwidget": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_bluetooth": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.TextView": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "btn_sync": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell1": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "ScrollView01": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.widget.ImageButton": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "admogo_layout": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/action_bar_title": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.Spinner": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "BubbleImage": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/action_mode_close_button": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "mainnewgame": [
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ], 
+        "android.view.View": [
+            "android.telephony.TelephonyManager;->getDeviceId"
+        ], 
+        "more": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver"
+        ], 
+        "recipients_editor": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ]
+    }, 
+    "repack": {
+        "android.widget.Button": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "analog_appwidget": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_bluetooth": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.TextView": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android:id/action_mode_close_button": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "start": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "cell1": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "ScrollView01": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.widget.ImageButton": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "admogo_layout": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.view.View": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "BACK": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "recipients_editor": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android:id/action_bar_title": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "tryPro": [
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "btn_sync": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "BubbleImage": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "android.widget.LinearLayout": [
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "android.widget.Spinner": [
+            "android.app.ActivityManager;->getRunningTasks"
+        ], 
+        "mainnewgame": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ], 
+        "more": [
+            "android.telephony.TelephonyManager;->getDeviceId", 
+            "android.app.ActivityManager;->getRunningTasks", 
+            "android.content.ContentResolver;->registerContentObserver", 
+            "android.webkit.WebView;->loadUrl"
+        ]
+    }
+}
